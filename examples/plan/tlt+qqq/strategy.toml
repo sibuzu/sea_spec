@@ -1,0 +1,12 @@
+[strategy]
+name = "Risk Parity Rotation"
+project = "mock"
+strategy_id = "rpr"
+
+[params]
+assets = "TLT,QQQ"
+rebalance_freq = "monthly"
+lookback_window = 63
+vol_method = "ewma"
+risk_budget_equity = 0.5
+risk_budget_bond = 0.5

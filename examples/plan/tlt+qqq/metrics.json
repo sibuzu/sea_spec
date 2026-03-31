@@ -1,0 +1,55 @@
+{
+  "summary": {
+    "initial_capital": 100000.0,
+    "final_capital": 172511.420451482,
+    "total_pnl": 72511.420451482,
+    "trade_count": 129
+  },
+  "performance": {
+    "sharpe_ratio": 0.5380688966866605,
+    "calmar_ratio": 0.33694297734364587,
+    "cagr_pct": 7.402374527709021
+  },
+  "risk": {
+    "max_drawdown_pct": -21.969220388764445,
+    "max_days_to_new_high": 604,
+    "max_leverage": {
+      "ratio": 0.9999990640433204,
+      "timestamp": "2018-01-29T23:59:00Z"
+    }
+  },
+  "drawdown": {
+    "episodes": [
+      {
+        "drawdown_pct": -21.969220388764445,
+        "start_ts": "2021-11-23T23:59:00Z",
+        "end_ts": "2023-07-19T23:59:00Z",
+        "start_time": "2021-11-23T23:59:00Z",
+        "end_time": "2023-07-19T23:59:00Z",
+        "peak_equity": 185479.28471537752,
+        "trough_equity": 144730.93188075235
+      },
+      {
+        "drawdown_pct": -19.621186224695226,
+        "start_ts": "2025-02-19T23:59:00Z",
+        "end_ts": "2025-04-11T23:59:00Z",
+        "start_time": "2025-02-19T23:59:00Z",
+        "end_time": "2025-04-11T23:59:00Z",
+        "peak_equity": 212813.85212165886,
+        "trough_equity": 171057.24988492066
+      },
+      {
+        "drawdown_pct": -14.814447578820996,
+        "start_ts": "2018-03-14T23:59:00Z",
+        "end_ts": "2019-08-07T23:59:00Z",
+        "start_time": "2018-03-14T23:59:00Z",
+        "end_time": "2019-08-07T23:59:00Z",
+        "peak_equity": 110098.67129071862,
+        "trough_equity": 93788.16134737666
+      }
+    ]
+  },
+  "meta": {
+    "schema_version": "1.0"
+  }
+}

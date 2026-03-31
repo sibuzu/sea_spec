@@ -1,0 +1,18 @@
+[strategy]
+name = "Buy and Hold"
+project = "mock"
+strategy_id = "bh"
+
+[params."基本設定"]
+"產品" = "SPY"
+"開始日期" = ""
+"結束日期" = ""
+"日K種類" = "exec"
+"執行時間" = "open"
+"滑價成本" = "1"
+
+[params."進場設定"]
+"方向" = "long"
+
+[optimize."基本設定"]
+"產品" = ["CN", "NK", "TWN", "TX", "FGBL", "FGBM", "FGBS", "CL", "GC", "SI", "VX", "ZF", "ZN", "ZT", "ES", "NQ", "YM"]
