@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<策略回測>
+  <策略參數>
+    <StgBDSXv5>
+      <Version>v26.04.01.27183</Version>
+      <滑價xTick>0.02%</滑價xTick>
+      <KBAR間隔ex>1/4</KBAR間隔ex>
+      <報價偏移>0</報價偏移>
+      <開始交易時間>0</開始交易時間>
+      <最後交易時間>2359</最後交易時間>
+      <開始日期>2026/01/01</開始日期>
+      <結束日期>2026/12/31</結束日期>
+      <ATR長度>100</ATR長度>
+      <部位管理>固定金額</部位管理>
+      <固定金額>10000</固定金額>
+      <交易金額檔案 />
+      <金額乘數>1</金額乘數>
+      <最小口數>1</最小口數>
+      <啟動移停比>3%</啟動移停比>
+      <移停拉回比>2%</移停拉回比>
+      <移停增量比>0</移停增量比>
+      <直接停利比>10%</直接停利比>
+      <直停限價>false</直停限價>
+      <累計績效>46.364609904000000</累計績效>
+      <MaxDrawdown>-642.326718536000000</MaxDrawdown>
+      <交易次數>68</交易次數>
+      <交易口數>4555</交易口數>
+      <交易點數>338064.62524000000</交易點數>
+      <GrossProfit>2516.577304284000000</GrossProfit>
+      <GrossLoss>-2470.212694380000000</GrossLoss>
+      <回測商品>-</回測商品>
+      <BR商品開始時間>
+        <Act>false</Act>
+        <Parameter>商品開始時間</Parameter>
+        <Value>0</Value>
+        <Start>845</Start>
+        <Step>10</Step>
+        <End>945</End>
+      </BR商品開始時間>
+      <BR商品最後時間>
+        <Act>false</Act>
+        <Parameter>商品最後時間</Parameter>
+        <Value>2359</Value>
+        <Start>1345</Start>
+        <Step>60</Step>
+        <End>2345</End>
+      </BR商品最後時間>
+      <BRKBAR間隔>
+        <Act>true</Act>
+        <Parameter>KBAR間隔</Parameter>
+        <Value>4/4</Value>
+        <Start>1/4</Start>
+        <Step>1/4</Step>
+        <End>4/4</End>
+      </BRKBAR間隔>
+      <BR報價偏移>
+        <Act>false</Act>
+        <Parameter>報價偏移</Parameter>
+        <Value>0</Value>
+        <Start>0</Start>
+        <Step>5</Step>
+        <End>55</End>
+      </BR報價偏移>
+      <多進場比>1%</多進場比>
+      <空進場比>1%</空進場比>
+      <空進場與多同>true</空進場與多同>
+      <最少進場點>0</最少進場點>
+      <最多進場次數>5</最多進場次數>
+      <停損後加碼>false</停損後加碼>
+      <最多進場口數>1</最多進場口數>
+      <最多口數絕對值>false</最多口數絕對值>
+      <自動停止天數>0</自動停止天數>
+      <進場價格修正>true</進場價格修正>
+      <跳空處理>無</跳空處理>
+      <可當沖>true</可當沖>
+      <總停利>10000</總停利>
+      <停損比>1%</停損比>
+      <停止分鐘>0</停止分鐘>
+      <夜盤模式>與日盤相同</夜盤模式>
+      <夜停損計算>相對日收盤價</夜停損計算>
+      <夜盤停損>300</夜盤停損>
+      <夜盤停利>500</夜盤停利>
+      <加碼模式>無</加碼模式>
+      <下單基數2>1</下單基數2>
+      <星期一乘數>1</星期一乘數>
+      <星期二乘數>1</星期二乘數>
+      <星期三乘數>1</星期三乘數>
+      <星期四乘數>1</星期四乘數>
+      <星期五乘數>1</星期五乘數>
+      <價差模式>日價差30</價差模式>
+      <正價差點數>10</正價差點數>
+      <逆價差點數>20</逆價差點數>
+      <正價差作多乘數>0</正價差作多乘數>
+      <正價差作空乘數>2</正價差作空乘數>
+      <逆價差作多乘數>1.2</逆價差作多乘數>
+      <逆價差作空乘數>0</逆價差作空乘數>
+      <進場模式>每週</進場模式>
+      <每n分>60</每n分>
+      <畫線分鐘偏移>0</畫線分鐘偏移>
+      <結算前n日>15</結算前n日>
+      <漲跌n點>100</漲跌n點>
+      <BD線開盤時間>0</BD線開盤時間>
+      <BD線最後時間>1344</BD線最後時間>
+      <BD線週N劃線>1</BD線週N劃線>
+      <BD線月N劃線>1</BD線月N劃線>
+      <BD線濾網點>0</BD線濾網點>
+      <結算日動作>換倉</結算日動作>
+      <每日收盤動作>留倉</每日收盤動作>
+      <留倉最多口數>1000</留倉最多口數>
+      <平倉時間>1344</平倉時間>
+      <年假留倉>留倉</年假留倉>
+      <年假天數>7</年假天數>
+      <BR多進場比>
+        <Act>true</Act>
+        <Parameter>多進場</Parameter>
+        <Value>5%</Value>
+        <Start>1%</Start>
+        <Step>1%</Step>
+        <End>5%</End>
+      </BR多進場比>
+      <BR空進場比>
+        <Act>false</Act>
+        <Parameter>空進場</Parameter>
+        <Value>1%</Value>
+        <Start>0.1%</Start>
+        <Step>0.5%</Step>
+        <End>5%</End>
+      </BR空進場比>
+      <BR最少進場點>
+        <Act>false</Act>
+        <Parameter>最少進場點</Parameter>
+        <Value>0</Value>
+        <Start>0</Start>
+        <Step>5</Step>
+        <End>50</End>
+      </BR最少進場點>
+      <BR停損比>
+        <Act>false</Act>
+        <Parameter>停損</Parameter>
+        <Value>1%</Value>
+        <Start>0.1%</Start>
+        <Step>0.1%</Step>
+        <End>1.0%</End>
+      </BR停損比>
+      <BR停止分鐘>
+        <Act>false</Act>
+        <Parameter>停止分鐘</Parameter>
+        <Value>0</Value>
+        <Start>0</Start>
+        <Step>60</Step>
+        <End>240</End>
+      </BR停止分鐘>
+      <BR夜盤停損>
+        <Act>false</Act>
+        <Parameter>夜盤停損</Parameter>
+        <Value>300</Value>
+        <Start>300</Start>
+        <Step>100</Step>
+        <End>10000</End>
+      </BR夜盤停損>
+      <BR啟動移停比>
+        <Act>true</Act>
+        <Parameter>啟動移停</Parameter>
+        <Value>3%</Value>
+        <Start>1%</Start>
+        <Step>1%</Step>
+        <End>3%</End>
+      </BR啟動移停比>
+      <BR移停拉回比>
+        <Act>true</Act>
+        <Parameter>移停拉回</Parameter>
+        <Value>4%</Value>
+        <Start>2%</Start>
+        <Step>2%</Step>
+        <End>4%</End>
+      </BR移停拉回比>
+      <BR直接停利比>
+        <Act>false</Act>
+        <Parameter>直接停利</Parameter>
+        <Value>10%</Value>
+        <Start>5%</Start>
+        <Step>1.00%</Step>
+        <End>10.00%</End>
+      </BR直接停利比>
+      <BR總停利比>
+        <Act>false</Act>
+        <Parameter>總停利</Parameter>
+        <Value>10000</Value>
+        <Start>200</Start>
+        <Step>50</Step>
+        <End>300</End>
+      </BR總停利比>
+      <BR最多進場次數>
+        <Act>false</Act>
+        <Parameter>最多進場次數</Parameter>
+        <Value>5</Value>
+        <Start>1</Start>
+        <Step>1</Step>
+        <End>10</End>
+      </BR最多進場次數>
+      <BR最多進場口數>
+        <Act>false</Act>
+        <Parameter>最多進場口數</Parameter>
+        <Value>1</Value>
+        <Start>1</Start>
+        <Step>1</Step>
+        <End>10</End>
+      </BR最多進場口數>
+      <BR停損後加碼>
+        <Act>false</Act>
+        <Parameter>停損後加碼</Parameter>
+        <Value>0</Value>
+        <Start>0</Start>
+        <Step>1</Step>
+        <End>1</End>
+      </BR停損後加碼>
+      <BRBD線開盤時間>
+        <Act>false</Act>
+        <Parameter>BD線開盤時間</Parameter>
+        <Value>0</Value>
+        <Start>845</Start>
+        <Step>5</Step>
+        <End>1030</End>
+      </BRBD線開盤時間>
+      <BRBD線最後時間>
+        <Act>false</Act>
+        <Parameter>BD線最後時間</Parameter>
+        <Value>1344</Value>
+        <Start>1500</Start>
+        <Step>60</Step>
+        <End>2300</End>
+      </BRBD線最後時間>
+      <BRBD線週N劃線>
+        <Act>false</Act>
+        <Parameter>BD線週N劃線</Parameter>
+        <Value>1</Value>
+        <Start>1</Start>
+        <Step>1</Step>
+        <End>5</End>
+      </BRBD線週N劃線>
+      <BRBD線月N劃線>
+        <Act>false</Act>
+        <Parameter>BD線月N劃線</Parameter>
+        <Value>1</Value>
+        <Start>1</Start>
+        <Step>1</Step>
+        <End>25</End>
+      </BRBD線月N劃線>
+      <BRBD線濾網點>
+        <Act>false</Act>
+        <Parameter>BD線濾網</Parameter>
+        <Value>0</Value>
+        <Start>1</Start>
+        <Step>2</Step>
+        <End>20</End>
+      </BRBD線濾網點>
+      <BR每n分>
+        <Act>false</Act>
+        <Parameter>每n分</Parameter>
+        <Value>60</Value>
+        <Start>10</Start>
+        <Step>5</Step>
+        <End>30</End>
+      </BR每n分>
+      <BR畫線分鐘偏移>
+        <Act>false</Act>
+        <Parameter>畫線分鐘偏移</Parameter>
+        <Value>0</Value>
+        <Start>0</Start>
+        <Step>5</Step>
+        <End>30</End>
+      </BR畫線分鐘偏移>
+      <BR結算前n日>
+        <Act>false</Act>
+        <Parameter>結算前n日</Parameter>
+        <Value>15</Value>
+        <Start>10</Start>
+        <Step>2</Step>
+        <End>20</End>
+      </BR結算前n日>
+      <BR漲跌n點>
+        <Act>false</Act>
+        <Parameter>漲跌n點</Parameter>
+        <Value>100</Value>
+        <Start>100</Start>
+        <Step>100</Step>
+        <End>500</End>
+      </BR漲跌n點>
+      <BR留倉最多口數>
+        <Act>false</Act>
+        <Parameter>留倉最多口數</Parameter>
+        <Value>1000</Value>
+        <Start>0</Start>
+        <Step>1</Step>
+        <End>10</End>
+      </BR留倉最多口數>
+      <BR平倉時間>
+        <Act>false</Act>
+        <Parameter>平倉時間</Parameter>
+        <Value>1344</Value>
+        <Start>1300</Start>
+        <Step>5</Step>
+        <End>1344</End>
+      </BR平倉時間>
+      <BR下單基數>
+        <Act>false</Act>
+        <Parameter>下單基數</Parameter>
+        <Value>1</Value>
+        <Start>10</Start>
+        <Step>10</Step>
+        <End>30</End>
+      </BR下單基數>
+      <BR星期一乘數>
+        <Act>false</Act>
+        <Parameter>星期一乘數</Parameter>
+        <Value>1</Value>
+        <Start>0.6</Start>
+        <Step>0.2</Step>
+        <End>1.4</End>
+      </BR星期一乘數>
+      <BR星期二乘數>
+        <Act>false</Act>
+        <Parameter>星期二乘數</Parameter>
+        <Value>1</Value>
+        <Start>0.6</Start>
+        <Step>0.2</Step>
+        <End>1.4</End>
+      </BR星期二乘數>
+      <BR星期三乘數>
+        <Act>false</Act>
+        <Parameter>星期三乘數</Parameter>
+        <Value>1</Value>
+        <Start>0.6</Start>
+        <Step>0.2</Step>
+        <End>1.4</End>
+      </BR星期三乘數>
+      <BR星期四乘數>
+        <Act>false</Act>
+        <Parameter>星期四乘數</Parameter>
+        <Value>1</Value>
+        <Start>0.6</Start>
+        <Step>0.2</Step>
+        <End>1.4</End>
+      </BR星期四乘數>
+      <BR星期五乘數>
+        <Act>false</Act>
+        <Parameter>星期五乘數</Parameter>
+        <Value>1</Value>
+        <Start>0.6</Start>
+        <Step>0.2</Step>
+        <End>1.4</End>
+      </BR星期五乘數>
+      <BR正價差點數>
+        <Act>false</Act>
+        <Parameter>正價差點數</Parameter>
+        <Value>10</Value>
+        <Start>10</Start>
+        <Step>5</Step>
+        <End>20</End>
+      </BR正價差點數>
+      <BR逆價差點數>
+        <Act>false</Act>
+        <Parameter>逆價差點數</Parameter>
+        <Value>20</Value>
+        <Start>10</Start>
+        <Step>5</Step>
+        <End>20</End>
+      </BR逆價差點數>
+      <BR正價差作多乘數>
+        <Act>false</Act>
+        <Parameter>正價差作多乘數</Parameter>
+        <Value>0</Value>
+        <Start>0.6</Start>
+        <Step>0.2</Step>
+        <End>1.4</End>
+      </BR正價差作多乘數>
+      <BR逆價差作多乘數>
+        <Act>false</Act>
+        <Parameter>逆價差作多乘數</Parameter>
+        <Value>1.2</Value>
+        <Start>0.6</Start>
+        <Step>0.2</Step>
+        <End>1.4</End>
+      </BR逆價差作多乘數>
+    </StgBDSXv5>
+  </策略參數>
+  <參數>
+    <策略>BDSXv5</策略>
+    <近月代碼>BTC (Bitcoin)</近月代碼>
+    <滑價>0.02%</滑價>
+    <交易時間>00:00-23:59</交易時間>
+    <契約價值>1</契約價值>
+    <最小跳動點>0.01</最小跳動點>
+    <最小跳動金額>0.01</最小跳動金額>
+    <開始日期>2026/01/01</開始日期>
+    <結束日期>2026/12/31</結束日期>
+    <隱藏複合界面>1</隱藏複合界面>
+  </參數>
+  <報價檔案 />
+  <策略交易>
+    <Trade index="1" bs="B" contract="107" price="92.73957000000" time_stamp="2026/01/05 01:08:00" tag="多" atr="1.64002500000" />
+    <Trade index="1" bs="S" contract="107" price="91.73640000000" time_stamp="2026/01/06 17:56:00" tag="停損" atr="1.96687400000" />
+    <Trade index="1" bs="B" contract="107" price="93.42914000000" time_stamp="2026/01/06 21:16:00" tag="多" atr="1.96687400000" />
+    <Trade index="1" bs="S" contract="107" price="92.47767000000" time_stamp="2026/01/07 01:20:00" tag="停損" atr="2.1693116666666666666666666667" />
+    <Trade index="1" bs="S" contract="109" price="91.51600000000" time_stamp="2026/01/07 14:20:00" tag="空" atr="2.1693116666666666666666666667" />
+    <Trade index="2" bs="B" contract="108" price="91.99899000000" time_stamp="2026/01/12 02:44:00" tag="多" atr="2.0299172727272727272727272727" />
+    <Trade index="1" bs="B" contract="109" price="92.45031000000" time_stamp="2026/01/12 03:20:00" tag="停損" atr="2.0299172727272727272727272727" />
+    <Trade index="1" bs="S" contract="109" price="91.50661000000" time_stamp="2026/01/12 07:48:00" tag="空" atr="2.0299172727272727272727272727" />
+    <Trade index="2" bs="S" contract="108" price="90.98152000000" time_stamp="2026/01/12 08:36:00" tag="停損" atr="2.0299172727272727272727272727" />
+    <Trade index="2" bs="B" contract="108" price="92.26953000000" time_stamp="2026/01/12 16:32:00" tag="多" atr="2.0299172727272727272727272727" />
+    <Trade index="2" bs="S" contract="108" price="91.24649000000" time_stamp="2026/01/12 17:36:00" tag="停損" atr="2.0299172727272727272727272727" />
+    <Trade index="2" bs="B" contract="108" price="92.30442000000" time_stamp="2026/01/13 09:04:00" tag="多" atr="2.06005000000" />
+    <Trade index="1" bs="B" contract="109" price="92.44914000000" time_stamp="2026/01/13 09:24:00" tag="停損" atr="2.06005000000" />
+    <Trade index="2" bs="S" contract="108" price="95.82782000000" time_stamp="2026/01/15 03:40:00" tag="移停" atr="2.3955821428571428571428571429" />
+    <Trade index="3" bs="S" contract="107" price="92.62890000000" time_stamp="2026/01/19 00:12:00" tag="空" atr="2.2060288888888888888888888889" />
+    <Trade index="3" bs="B" contract="107" price="89.84200000000" time_stamp="2026/01/21 05:40:00" tag="移停" atr="2.32227400000" />
+    <Trade index="4" bs="B" contract="114" price="87.63760000000" time_stamp="2026/01/26 01:24:00" tag="多" atr="2.33147680000" />
+    <Trade index="4" bs="S" contract="114" price="88.58944000000" time_stamp="2026/01/29 01:56:00" tag="移停" atr="2.3079453571428571428571428571" />
+    <Trade index="5" bs="B" contract="128" price="77.81340000000" time_stamp="2026/02/02 00:20:00" tag="多" atr="2.70246906250" />
+    <Trade index="5" bs="S" contract="128" price="76.74142000000" time_stamp="2026/02/02 01:16:00" tag="停損" atr="2.70246906250" />
+    <Trade index="5" bs="S" contract="131" price="76.17169000000" time_stamp="2026/02/02 03:12:00" tag="空" atr="2.70246906250" />
+    <Trade index="5" bs="B" contract="131" price="76.98543000000" time_stamp="2026/02/02 08:16:00" tag="停損" atr="2.70246906250" />
+    <Trade index="5" bs="B" contract="128" price="77.76642000000" time_stamp="2026/02/02 09:48:00" tag="多" atr="2.70246906250" />
+    <Trade index="5" bs="S" contract="128" price="76.96062000000" time_stamp="2026/02/03 16:24:00" tag="停損" atr="2.7646972727272727272727272727" />
+    <Trade index="5" bs="S" contract="131" price="76.12232000000" time_stamp="2026/02/03 17:08:00" tag="空" atr="2.7646972727272727272727272727" />
+    <Trade index="5" bs="B" contract="131" price="75.00205000000" time_stamp="2026/02/03 19:20:00" tag="移停" atr="2.7646972727272727272727272727" />
+    <Trade index="6" bs="B" contract="140" price="71.09367000000" time_stamp="2026/02/09 03:40:00" tag="多" atr="3.4123289743589743589743589744" />
+    <Trade index="6" bs="S" contract="140" price="70.36455000000" time_stamp="2026/02/09 08:20:00" tag="停損" atr="3.4123289743589743589743589744" />
+    <Trade index="6" bs="S" contract="143" price="69.64937000000" time_stamp="2026/02/09 09:40:00" tag="空" atr="3.4123289743589743589743589744" />
+    <Trade index="6" bs="B" contract="143" price="70.48929000000" time_stamp="2026/02/09 17:36:00" tag="停損" atr="3.4123289743589743589743589744" />
+    <Trade index="6" bs="B" contract="140" price="71.07895000000" time_stamp="2026/02/09 20:12:00" tag="多" atr="3.4123289743589743589743589744" />
+    <Trade index="6" bs="S" contract="140" price="70.35286000000" time_stamp="2026/02/09 21:20:00" tag="停損" atr="3.4123289743589743589743589744" />
+    <Trade index="6" bs="S" contract="143" price="69.56962000000" time_stamp="2026/02/10 03:20:00" tag="空" atr="3.40565900000" />
+    <Trade index="6" bs="B" contract="143" price="67.79001000000" time_stamp="2026/02/11 14:04:00" tag="移停" atr="3.3891207317073170731707317073" />
+    <Trade index="7" bs="B" contract="143" price="69.53131000000" time_stamp="2026/02/16 12:40:00" tag="多" atr="3.352320434782608695652173913" />
+    <Trade index="7" bs="S" contract="143" price="68.79999000000" time_stamp="2026/02/16 13:32:00" tag="停損" atr="3.352320434782608695652173913" />
+    <Trade index="7" bs="S" contract="147" price="67.72594000000" time_stamp="2026/02/16 15:32:00" tag="空" atr="3.352320434782608695652173913" />
+    <Trade index="7" bs="B" contract="147" price="68.41470000000" time_stamp="2026/02/16 20:56:00" tag="停損" atr="3.352320434782608695652173913" />
+    <Trade index="7" bs="B" contract="144" price="69.18398000000" time_stamp="2026/02/17 02:16:00" tag="多" atr="3.3412617021276595744680851064" />
+    <Trade index="7" bs="S" contract="144" price="68.47490000000" time_stamp="2026/02/17 04:00:00" tag="停損" atr="3.3412617021276595744680851064" />
+    <Trade index="7" bs="S" contract="147" price="67.80367000000" time_stamp="2026/02/17 10:36:00" tag="空" atr="3.3412617021276595744680851064" />
+    <Trade index="7" bs="B" contract="147" price="67.03050000000" time_stamp="2026/02/19 19:00:00" tag="移停" atr="3.3115502040816326530612244898" />
+    <Trade index="8" bs="S" contract="149" price="66.74047000000" time_stamp="2026/02/23 01:00:00" tag="空" atr="3.1737986792452830188679245283" />
+    <Trade index="8" bs="B" contract="149" price="65.74628000000" time_stamp="2026/02/23 06:56:00" tag="移停" atr="3.1737986792452830188679245283" />
+    <Trade index="9" bs="B" contract="150" price="66.50949000000" time_stamp="2026/03/02 00:48:00" tag="多" atr="3.23559600000" />
+    <Trade index="9" bs="S" contract="150" price="65.71368000000" time_stamp="2026/03/02 07:12:00" tag="停損" atr="3.23559600000" />
+    <Trade index="9" bs="B" contract="150" price="66.53787000000" time_stamp="2026/03/02 09:20:00" tag="多" atr="3.23559600000" />
+    <Trade index="9" bs="S" contract="150" price="65.84206000000" time_stamp="2026/03/02 13:28:00" tag="停損" atr="3.23559600000" />
+    <Trade index="9" bs="B" contract="149" price="66.77512000000" time_stamp="2026/03/02 14:48:00" tag="多" atr="3.23559600000" />
+    <Trade index="9" bs="S" contract="149" price="68.31000000000" time_stamp="2026/03/03 02:24:00" tag="移停" atr="3.2618450819672131147540983607" />
+    <Trade index="10" bs="B" contract="149" price="66.67328000000" time_stamp="2026/03/09 01:36:00" tag="多" atr="3.276534328358208955223880597" />
+    <Trade index="10" bs="S" contract="149" price="69.77457000000" time_stamp="2026/03/10 13:40:00" tag="移停" atr="3.2826835294117647058823529412" />
+    <Trade index="11" bs="B" contract="135" price="73.66741000000" time_stamp="2026/03/16 03:36:00" tag="多" atr="3.2081632432432432432432432432" />
+    <Trade index="11" bs="S" contract="135" price="74.44968000000" time_stamp="2026/03/17 03:44:00" tag="移停" atr="3.20057000000" />
+    <Trade index="12" bs="B" contract="145" price="68.54820000000" time_stamp="2026/03/23 03:04:00" tag="多" atr="3.165098641975308641975308642" />
+    <Trade index="12" bs="S" contract="145" price="67.76311000000" time_stamp="2026/03/23 06:44:00" tag="停損" atr="3.165098641975308641975308642" />
+    <Trade index="12" bs="B" contract="145" price="68.62456000000" time_stamp="2026/03/23 08:16:00" tag="多" atr="3.165098641975308641975308642" />
+    <Trade index="12" bs="S" contract="145" price="70.13148000000" time_stamp="2026/03/23 16:00:00" tag="移停" atr="3.165098641975308641975308642" />
+    <Trade index="13" bs="B" contract="149" price="66.90852000000" time_stamp="2026/03/30 00:20:00" tag="多" atr="3.12774875000" />
+    <Trade index="13" bs="S" contract="149" price="66.17667000000" time_stamp="2026/03/30 00:52:00" tag="停損" atr="3.12774875000" />
+    <Trade index="13" bs="B" contract="148" price="67.27778000000" time_stamp="2026/03/30 02:48:00" tag="多" atr="3.12774875000" />
+    <Trade index="13" bs="S" contract="148" price="66.57647000000" time_stamp="2026/03/30 18:32:00" tag="停損" atr="3.12774875000" />
+    <Trade index="13" bs="B" contract="148" price="67.36013000000" time_stamp="2026/03/31 01:16:00" tag="多" atr="3.1192241573033707865168539326" />
+    <Trade index="13" bs="S" contract="148" price="66.65853000000" time_stamp="2026/03/31 09:12:00" tag="停損" atr="3.1192241573033707865168539326" />
+    <Trade index="13" bs="B" contract="148" price="67.45613000000" time_stamp="2026/03/31 14:16:00" tag="多" atr="3.1192241573033707865168539326" />
+    <Trade index="13" bs="S" contract="148" price="66.56703000000" time_stamp="2026/03/31 14:52:00" tag="停損" atr="3.1192241573033707865168539326" />
+    <Trade index="13" bs="B" contract="148" price="67.50681000000" time_stamp="2026/03/31 16:40:00" tag="多" atr="3.1192241573033707865168539326" />
+    <Trade index="13" bs="S" contract="148" price="68.28448000000" time_stamp="2026/03/31 23:59:00" tag="策停" atr="3.1192241573033707865168539326" />
+  </策略交易>
+</策略回測>
