@@ -2,7 +2,7 @@
 <策略回測>
   <策略參數>
     <StgBDSXv5>
-      <Version>v26.04.01.27183</Version>
+      <Version>v26.04.01.36888</Version>
       <滑價xTick>0.02%</滑價xTick>
       <KBAR間隔ex>1/4</KBAR間隔ex>
       <報價偏移>0</報價偏移>

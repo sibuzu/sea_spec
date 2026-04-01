@@ -1,0 +1,49 @@
+{
+  "summary": {
+    "initial_capital": 100000.0,
+    "final_capital": 100046.364609904,
+    "total_pnl": 46.364609904005192,
+    "trade_count": 68
+  },
+  "performance": {
+    "sharpe_ratio": 0.14854618618453785,
+    "calmar_ratio": 0.3069605743739417,
+    "cagr_pct": 0.19716897845754033
+  },
+  "risk": {
+    "max_drawdown_pct": -0.64232671853600187,
+    "max_days_to_new_high": 35,
+    "max_leverage": {
+      "ratio": 0.10049054884483384,
+      "timestamp": "2026-01-13T09:24:00"
+    }
+  },
+  "drawdown": {
+    "episodes": [
+      {
+        "drawdown_pct": -0.64232671853600187,
+        "start_time": "2026-01-05T01:08:00",
+        "end_time": "2026-01-21T05:40:00",
+        "peak_equity": 100000.0,
+        "trough_equity": 99357.673281464
+      },
+      {
+        "drawdown_pct": -0.6202865658955562,
+        "start_time": "2026-02-02T00:20:00",
+        "end_time": "2026-03-10T13:40:00",
+        "peak_equity": 100117.254103576,
+        "trough_equity": 99496.240226228
+      },
+      {
+        "drawdown_pct": -0.46218979662960891,
+        "start_time": "2026-03-30T00:20:00",
+        "end_time": "2026-03-31T23:59:00",
+        "peak_equity": 100399.347430828,
+        "trough_equity": 99935.31189112
+      }
+    ]
+  },
+  "meta": {
+    "schema_version": "1.0"
+  }
+}

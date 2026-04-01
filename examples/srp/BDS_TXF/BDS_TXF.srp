@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<策略回測>
+  <策略參數>
+    <StgBDSXv5>
+      <Version>v26.04.01.36888</Version>
+      <滑價xTick>0.02%</滑價xTick>
+      <KBAR間隔ex>1</KBAR間隔ex>
+      <報價偏移>0</報價偏移>
+      <開始交易時間>845</開始交易時間>
+      <最後交易時間>1345</最後交易時間>
+      <開始日期>2025/01/01</開始日期>
+      <結束日期>2026/12/31</結束日期>
+      <ATR長度>100</ATR長度>
+      <部位管理>固定一口</部位管理>
+      <固定金額>10000</固定金額>
+      <交易金額檔案 />
+      <金額乘數>1</金額乘數>
+      <最小口數>1</最小口數>
+      <啟動移停比>1%</啟動移停比>
+      <移停拉回比>1%</移停拉回比>
+      <移停增量比>0</移停增量比>
+      <直接停利比>4%</直接停利比>
+      <直停限價>false</直停限價>
+      <累計績效>276680.2400</累計績效>
+      <MaxDrawdown>-711800.9600</MaxDrawdown>
+      <交易次數>212</交易次數>
+      <交易口數>106</交易口數>
+      <交易點數>2803997</交易點數>
+      <GrossProfit>3429055.1200</GrossProfit>
+      <GrossLoss>-3152374.8800</GrossLoss>
+      <多進場比>1%</多進場比>
+      <空進場比>91%</空進場比>
+      <空進場與多同>false</空進場與多同>
+      <最少進場點>0</最少進場點>
+      <最多進場次數>5</最多進場次數>
+      <停損後加碼>false</停損後加碼>
+      <最多進場口數>1</最多進場口數>
+      <最多口數絕對值>false</最多口數絕對值>
+      <自動停止天數>0</自動停止天數>
+      <進場價格修正>true</進場價格修正>
+      <跳空處理>無</跳空處理>
+      <可當沖>true</可當沖>
+      <總停利>10000</總停利>
+      <停損比>0.5%</停損比>
+      <停止分鐘>0</停止分鐘>
+      <夜盤模式>與日盤相同</夜盤模式>
+      <夜停損計算>相對日收盤價</夜停損計算>
+      <夜盤停損>300</夜盤停損>
+      <夜盤停利>500</夜盤停利>
+      <加碼模式>無</加碼模式>
+      <下單基數2>10</下單基數2>
+      <星期一乘數>1</星期一乘數>
+      <星期二乘數>1</星期二乘數>
+      <星期三乘數>1</星期三乘數>
+      <星期四乘數>1</星期四乘數>
+      <星期五乘數>1</星期五乘數>
+      <價差模式>日價差30</價差模式>
+      <正價差點數>10</正價差點數>
+      <逆價差點數>20</逆價差點數>
+      <正價差作多乘數>0</正價差作多乘數>
+      <正價差作空乘數>2</正價差作空乘數>
+      <逆價差作多乘數>1.2</逆價差作多乘數>
+      <逆價差作空乘數>0</逆價差作空乘數>
+      <進場模式>每日</進場模式>
+      <每n分>60</每n分>
+      <畫線分鐘偏移>0</畫線分鐘偏移>
+      <結算前n日>15</結算前n日>
+      <漲跌n點>100</漲跌n點>
+      <BD線開盤時間>900</BD線開盤時間>
+      <BD線最後時間>1344</BD線最後時間>
+      <BD線週N劃線>1</BD線週N劃線>
+      <BD線月N劃線>1</BD線月N劃線>
+      <BD線濾網點>0</BD線濾網點>
+      <結算日動作>換倉</結算日動作>
+      <每日收盤動作>留倉</每日收盤動作>
+      <留倉最多口數>1000</留倉最多口數>
+      <平倉時間>1344</平倉時間>
+      <年假留倉>留倉</年假留倉>
+      <年假天數>7</年假天數>
+    </StgBDSXv5>
+  </策略參數>
+  <參數>
+    <策略>BDSXv5</策略>
+    <近月代碼>TXF (台指期)</近月代碼>
+    <滑價>0.02%</滑價>
+    <交易時間>8:45-5:00</交易時間>
+    <契約價值>200</契約價值>
+    <最小跳動點>1</最小跳動點>
+    <最小跳動金額>200</最小跳動金額>
+    <開始日期>2025/01/01</開始日期>
+    <結束日期>2026/12/31</結束日期>
+    <隱藏複合界面>0</隱藏複合界面>
+  </參數>
+  <報價檔案 />
+  <策略交易>
+    <Trade index="1" bs="B" contract="1" price="23222" time_stamp="2025/01/06 08:45:00" tag="多" atr="286" />
+    <Trade index="1" bs="S" contract="1" price="23549" time_stamp="2025/01/08 08:45:00" tag="移停" atr="399" />
+    <Trade index="10" bs="B" contract="1" price="23080" time_stamp="2025/01/16 08:45:00" tag="多" atr="357.4" />
+    <Trade index="10" bs="S" contract="1" price="22962" time_stamp="2025/01/17 09:43:00" tag="停損" atr="389" />
+    <Trade index="10" bs="B" contract="1" price="23087" time_stamp="2025/01/17 10:12:00" tag="多" atr="389" />
+    <Trade index="10" bs="S" contract="1" price="22680" time_stamp="2025/02/03 08:45:00" tag="移停" atr="363.4" />
+    <Trade index="16" bs="B" contract="1" price="22919" time_stamp="2025/02/04 08:45:00" tag="多" atr="413.125" />
+    <Trade index="16" bs="S" contract="1" price="22798" time_stamp="2025/02/04 09:50:00" tag="停損" atr="413.125" />
+    <Trade index="16" bs="B" contract="1" price="23077" time_stamp="2025/02/05 08:45:00" tag="多" atr="409.23529411764705882352941176" />
+    <Trade index="16" bs="S" contract="1" price="23223" time_stamp="2025/02/10 10:28:00" tag="移停" atr="392.6" />
+    <Trade index="25" bs="B" contract="1" price="23478" time_stamp="2025/02/17 10:41:00" tag="多" atr="364.4" />
+    <Trade index="25" bs="S" contract="1" price="23608" time_stamp="2025/02/19 13:29:00" tag="多出" type="swap" atr="358.07407407407407407407407407" />
+    <Trade index="25" bs="B" contract="1" price="23602" time_stamp="2025/02/19 13:29:00" tag="多進" type="swap" atr="358.07407407407407407407407407" />
+    <Trade index="25" bs="S" contract="1" price="23516" time_stamp="2025/02/24 08:46:00" tag="移停" atr="344.33333333333333333333333333" />
+    <Trade index="33" bs="B" contract="1" price="23381" time_stamp="2025/02/26 13:06:00" tag="多" atr="345.34375" />
+    <Trade index="33" bs="S" contract="1" price="23243" time_stamp="2025/02/27 10:07:00" tag="停損" atr="344.48484848484848484848484848" />
+    <Trade index="36" bs="B" contract="1" price="22531" time_stamp="2025/03/04 10:35:00" tag="多" atr="350.28571428571428571428571429" />
+    <Trade index="36" bs="S" contract="1" price="22759" time_stamp="2025/03/06 10:37:00" tag="移停" atr="354.67567567567567567567567568" />
+    <Trade index="41" bs="B" contract="1" price="22081" time_stamp="2025/03/11 12:34:00" tag="多" atr="348.775" />
+    <Trade index="41" bs="S" contract="1" price="22114" time_stamp="2025/03/12 12:50:00" tag="移停" atr="359.41463414634146341463414634" />
+    <Trade index="44" bs="B" contract="1" price="22256" time_stamp="2025/03/17 09:45:00" tag="多" atr="360.56818181818181818181818182" />
+    <Trade index="44" bs="S" contract="1" price="22144" time_stamp="2025/03/17 13:07:00" tag="停損" atr="360.56818181818181818181818182" />
+    <Trade index="44" bs="B" contract="1" price="22373" time_stamp="2025/03/18 08:45:00" tag="多" atr="360.35555555555555555555555556" />
+    <Trade index="44" bs="S" contract="1" price="22258" time_stamp="2025/03/18 09:55:00" tag="停損" atr="360.35555555555555555555555556" />
+    <Trade index="56" bs="B" contract="1" price="21153" time_stamp="2025/04/01 10:16:00" tag="多" atr="361" />
+    <Trade index="56" bs="S" contract="1" price="18596" time_stamp="2025/04/08 08:45:00" tag="停損" atr="390.91379310344827586206896552" />
+    <Trade index="58" bs="B" contract="1" price="18655" time_stamp="2025/04/08 09:25:00" tag="多" atr="390.91379310344827586206896552" />
+    <Trade index="58" bs="S" contract="1" price="18539" time_stamp="2025/04/08 09:45:00" tag="停損" atr="390.91379310344827586206896552" />
+    <Trade index="59" bs="B" contract="1" price="18208" time_stamp="2025/04/09 09:13:00" tag="多" atr="404" />
+    <Trade index="59" bs="S" contract="1" price="18109" time_stamp="2025/04/09 09:21:00" tag="停損" atr="404" />
+    <Trade index="59" bs="B" contract="1" price="18560" time_stamp="2025/04/11 08:45:00" tag="多" atr="437.39344262295081967213114754" />
+    <Trade index="59" bs="S" contract="1" price="18463" time_stamp="2025/04/11 09:03:00" tag="停損" atr="437.39344262295081967213114754" />
+    <Trade index="59" bs="B" contract="1" price="18569" time_stamp="2025/04/11 09:08:00" tag="多" atr="437.39344262295081967213114754" />
+    <Trade index="59" bs="S" contract="1" price="19318" time_stamp="2025/04/11 11:56:00" tag="直停" atr="437.39344262295081967213114754" />
+    <Trade index="61" bs="B" contract="1" price="19957" time_stamp="2025/04/14 09:12:00" tag="多" atr="448.48387096774193548387096774" />
+    <Trade index="61" bs="S" contract="1" price="19824" time_stamp="2025/04/14 09:18:00" tag="停損" atr="448.48387096774193548387096774" />
+    <Trade index="62" bs="B" contract="1" price="19807" time_stamp="2025/04/15 11:28:00" tag="多" atr="449.80952380952380952380952381" />
+    <Trade index="62" bs="S" contract="1" price="19601" time_stamp="2025/04/16 08:45:00" tag="停損" atr="448.125" />
+    <Trade index="67" bs="B" contract="1" price="19250" time_stamp="2025/04/23 08:45:00" tag="多" atr="438.82608695652173913043478261" />
+    <Trade index="67" bs="S" contract="1" price="19474" time_stamp="2025/04/24 10:51:00" tag="移停" atr="443.97142857142857142857142857" />
+    <Trade index="69" bs="B" contract="1" price="19980" time_stamp="2025/04/25 08:45:00" tag="多" atr="441.50704225352112676056338028" />
+    <Trade index="69" bs="S" contract="1" price="19879" time_stamp="2025/04/25 10:47:00" tag="停損" atr="441.50704225352112676056338028" />
+    <Trade index="69" bs="B" contract="1" price="19980" time_stamp="2025/04/28 08:46:00" tag="多" atr="442.90277777777777777777777778" />
+    <Trade index="69" bs="S" contract="1" price="20786" time_stamp="2025/05/05 08:47:00" tag="直停" atr="435.22368421052631578947368421" />
+    <Trade index="76" bs="B" contract="1" price="20444" time_stamp="2025/05/06 10:40:00" tag="多" atr="437.23376623376623376623376623" />
+    <Trade index="76" bs="S" contract="1" price="20332" time_stamp="2025/05/06 13:19:00" tag="停損" atr="437.23376623376623376623376623" />
+    <Trade index="76" bs="B" contract="1" price="20459" time_stamp="2025/05/07 08:46:00" tag="多" atr="435.8974358974358974358974359" />
+    <Trade index="76" bs="S" contract="1" price="20330" time_stamp="2025/05/07 09:31:00" tag="停損" atr="435.8974358974358974358974359" />
+    <Trade index="76" bs="B" contract="1" price="20475" time_stamp="2025/05/08 08:45:00" tag="多" atr="434.11392405063291139240506329" />
+    <Trade index="57" bs="B" contract="1" price="21421" time_stamp="2025/05/13 08:45:00" tag="多" atr="429.17073170731707317073170732" />
+    <Trade index="76" bs="S" contract="1" price="21421" time_stamp="2025/05/13 08:45:00" tag="直停" atr="429.17073170731707317073170732" />
+    <Trade index="57" bs="S" contract="1" price="21309" time_stamp="2025/05/13 11:06:00" tag="停損" atr="429.17073170731707317073170732" />
+    <Trade index="57" bs="B" contract="1" price="21677" time_stamp="2025/05/14 08:45:00" tag="多" atr="429.46987951807228915662650602" />
+    <Trade index="57" bs="S" contract="1" price="21565" time_stamp="2025/05/19 11:41:00" tag="停損" atr="423.32558139534883720930232558" />
+    <Trade index="57" bs="B" contract="1" price="21753" time_stamp="2025/05/20 08:45:00" tag="多" atr="422.16091954022988505747126437" />
+    <Trade index="57" bs="S" contract="1" price="21638" time_stamp="2025/05/20 09:33:00" tag="停損" atr="422.16091954022988505747126437" />
+    <Trade index="57" bs="B" contract="1" price="21753" time_stamp="2025/05/21 11:04:00" tag="多" atr="420.39772727272727272727272727" />
+    <Trade index="57" bs="S" contract="1" price="21847" time_stamp="2025/05/21 13:29:00" tag="多出" type="swap" atr="420.39772727272727272727272727" />
+    <Trade index="57" bs="B" contract="1" price="21699" time_stamp="2025/05/21 13:29:00" tag="多進" type="swap" atr="420.39772727272727272727272727" />
+    <Trade index="57" bs="S" contract="1" price="21465" time_stamp="2025/05/22 08:45:00" tag="停損" atr="419.1910112359550561797752809" />
+    <Trade index="57" bs="B" contract="1" price="21609" time_stamp="2025/05/23 08:51:00" tag="多" atr="417.6" />
+    <Trade index="57" bs="S" contract="1" price="21489" time_stamp="2025/05/23 09:34:00" tag="停損" atr="417.6" />
+    <Trade index="94" bs="B" contract="1" price="21280" time_stamp="2025/06/04 08:45:00" tag="多" atr="412.16494845360824742268041237" />
+    <Trade index="94" bs="S" contract="1" price="22132" time_stamp="2025/06/10 09:56:00" tag="直停" atr="407.58" />
+    <Trade index="48" bs="B" contract="1" price="22145" time_stamp="2025/06/10 10:21:00" tag="多" atr="407.58" />
+    <Trade index="48" bs="S" contract="1" price="21954" time_stamp="2025/06/13 08:45:00" tag="停損" atr="403.56" />
+    <Trade index="48" bs="B" contract="1" price="22150" time_stamp="2025/06/17 08:45:00" tag="多" atr="402.28" />
+    <Trade index="48" bs="S" contract="1" price="22308" time_stamp="2025/06/18 13:29:00" tag="多出" type="swap" atr="402.7" />
+    <Trade index="48" bs="B" contract="1" price="21911" time_stamp="2025/06/18 13:29:00" tag="多進" type="swap" atr="402.7" />
+    <Trade index="48" bs="S" contract="1" price="21758" time_stamp="2025/06/19 09:29:00" tag="移停" atr="401.43" />
+    <Trade index="109" bs="B" contract="1" price="21770" time_stamp="2025/06/24 08:45:00" tag="多" atr="399.2" />
+    <Trade index="109" bs="S" contract="1" price="22030" time_stamp="2025/06/27 10:39:00" tag="移停" atr="399.89" />
+    <Trade index="111" bs="B" contract="1" price="22314" time_stamp="2025/07/01 09:02:00" tag="多" atr="388.79" />
+    <Trade index="111" bs="S" contract="1" price="22354" time_stamp="2025/07/01 12:21:00" tag="移停" atr="388.79" />
+    <Trade index="116" bs="B" contract="1" price="22568" time_stamp="2025/07/03 08:45:00" tag="多" atr="387.11" />
+    <Trade index="116" bs="S" contract="1" price="22455" time_stamp="2025/07/04 11:50:00" tag="停損" atr="387.85" />
+    <Trade index="121" bs="B" contract="1" price="22415" time_stamp="2025/07/09 12:40:00" tag="多" atr="389.26" />
+    <Trade index="121" bs="S" contract="1" price="22535" time_stamp="2025/07/14 10:40:00" tag="移停" atr="390.39" />
+    <Trade index="125" bs="B" contract="1" price="22781" time_stamp="2025/07/15 09:53:00" tag="多" atr="389.22" />
+    <Trade index="125" bs="S" contract="1" price="23047" time_stamp="2025/07/16 13:29:00" tag="多出" type="swap" atr="390.95" />
+    <Trade index="125" bs="B" contract="1" price="22890" time_stamp="2025/07/16 13:29:00" tag="多進" type="swap" atr="390.95" />
+    <Trade index="125" bs="S" contract="1" price="23164" time_stamp="2025/07/22 11:10:00" tag="移停" atr="391.02" />
+    <Trade index="131" bs="B" contract="1" price="23400" time_stamp="2025/07/24 08:45:00" tag="多" atr="390.62" />
+    <Trade index="131" bs="S" contract="1" price="23276" time_stamp="2025/07/24 09:08:00" tag="停損" atr="390.62" />
+    <Trade index="131" bs="B" contract="1" price="23400" time_stamp="2025/07/28 08:47:00" tag="多" atr="385.13" />
+    <Trade index="131" bs="S" contract="1" price="23280" time_stamp="2025/07/28 09:13:00" tag="停損" atr="385.13" />
+    <Trade index="131" bs="B" contract="1" price="23402" time_stamp="2025/07/28 11:13:00" tag="多" atr="385.13" />
+    <Trade index="131" bs="S" contract="1" price="23272" time_stamp="2025/07/29 09:56:00" tag="停損" atr="382.34" />
+    <Trade index="131" bs="B" contract="1" price="23411" time_stamp="2025/07/30 12:29:00" tag="多" atr="382.6" />
+    <Trade index="131" bs="S" contract="1" price="23064" time_stamp="2025/08/01 08:45:00" tag="停損" atr="381.88" />
+    <Trade index="138" bs="B" contract="1" price="23402" time_stamp="2025/08/01 09:40:00" tag="多" atr="381.88" />
+    <Trade index="138" bs="S" contract="1" price="23108" time_stamp="2025/08/04 08:45:00" tag="停損" atr="384.97" />
+    <Trade index="139" bs="B" contract="1" price="23446" time_stamp="2025/08/05 08:45:00" tag="多" atr="380.24" />
+    <Trade index="139" bs="S" contract="1" price="23841" time_stamp="2025/08/11 09:03:00" tag="移停" atr="378.39" />
+    <Trade index="144" bs="B" contract="1" price="24145" time_stamp="2025/08/11 11:17:00" tag="多" atr="378.39" />
+    <Trade index="144" bs="S" contract="1" price="24156" time_stamp="2025/08/20 08:45:00" tag="移停" atr="375.68" />
+    <Trade index="152" bs="B" contract="1" price="24120" time_stamp="2025/08/25 08:45:00" tag="多" atr="370.29" />
+    <Trade index="152" bs="S" contract="1" price="24228" time_stamp="2025/08/28 12:08:00" tag="移停" atr="352.09" />
+    <Trade index="161" bs="B" contract="1" price="24195" time_stamp="2025/09/04 08:45:00" tag="多" atr="310.14" />
+    <Trade index="161" bs="S" contract="1" price="25163" time_stamp="2025/09/10 10:26:00" tag="直停" atr="309.47" />
+    <Trade index="166" bs="B" contract="1" price="25386" time_stamp="2025/09/11 08:45:00" tag="多" atr="310.48" />
+    <Trade index="166" bs="S" contract="1" price="25256" time_stamp="2025/09/11 13:00:00" tag="停損" atr="310.48" />
+    <Trade index="166" bs="B" contract="1" price="25418" time_stamp="2025/09/12 08:45:00" tag="多" atr="310.1" />
+    <Trade index="166" bs="S" contract="1" price="25284" time_stamp="2025/09/15 10:18:00" tag="停損" atr="304.37" />
+    <Trade index="166" bs="B" contract="1" price="25420" time_stamp="2025/09/16 08:45:00" tag="多" atr="303.58" />
+    <Trade index="166" bs="S" contract="1" price="25433" time_stamp="2025/09/17 13:29:00" tag="多出" type="swap" atr="301.26" />
+    <Trade index="166" bs="B" contract="1" price="25478" time_stamp="2025/09/17 13:29:00" tag="多進" type="swap" atr="301.26" />
+    <Trade index="166" bs="S" contract="1" price="26121" time_stamp="2025/09/24 10:01:00" tag="移停" atr="297.76" />
+    <Trade index="179" bs="B" contract="1" price="26167" time_stamp="2025/10/01 09:12:00" tag="多" atr="300.28" />
+    <Trade index="179" bs="S" contract="1" price="26013" time_stamp="2025/10/01 11:04:00" tag="停損" atr="300.28" />
+    <Trade index="179" bs="B" contract="1" price="26459" time_stamp="2025/10/02 08:45:00" tag="多" atr="301.63" />
+    <Trade index="179" bs="S" contract="1" price="27061" time_stamp="2025/10/08 08:45:00" tag="移停" atr="306.17" />
+    <Trade index="184" bs="B" contract="1" price="27440" time_stamp="2025/10/09 08:45:00" tag="多" atr="308.28" />
+    <Trade index="184" bs="S" contract="1" price="27299" time_stamp="2025/10/09 09:15:00" tag="停損" atr="308.28" />
+    <Trade index="186" bs="B" contract="1" price="26881" time_stamp="2025/10/13 13:11:00" tag="多" atr="308.68" />
+    <Trade index="186" bs="S" contract="1" price="27163" time_stamp="2025/10/14 11:00:00" tag="移停" atr="315.46" />
+    <Trade index="188" bs="B" contract="1" price="27545" time_stamp="2025/10/16 08:45:00" tag="多" atr="322.71" />
+    <Trade index="188" bs="S" contract="1" price="27251" time_stamp="2025/10/17 08:45:00" tag="移停" atr="325.92" />
+    <Trade index="190" bs="B" contract="1" price="27724" time_stamp="2025/10/20 09:31:00" tag="多" atr="329.58" />
+    <Trade index="190" bs="S" contract="1" price="27690" time_stamp="2025/10/22 08:45:00" tag="移停" atr="330.4" />
+    <Trade index="194" bs="B" contract="1" price="28284" time_stamp="2025/10/27 08:45:00" tag="多" atr="328.44" />
+    <Trade index="194" bs="S" contract="1" price="28141" time_stamp="2025/10/27 09:07:00" tag="停損" atr="328.44" />
+    <Trade index="194" bs="B" contract="1" price="28291" time_stamp="2025/10/29 09:02:00" tag="多" atr="329.28" />
+    <Trade index="194" bs="S" contract="1" price="28274" time_stamp="2025/11/03 10:40:00" tag="移停" atr="334.31" />
+    <Trade index="202" bs="B" contract="1" price="28010" time_stamp="2025/11/06 08:45:00" tag="多" atr="340.8" />
+    <Trade index="202" bs="S" contract="1" price="27777" time_stamp="2025/11/07 08:45:00" tag="停損" atr="340.57" />
+    <Trade index="202" bs="B" contract="1" price="28017" time_stamp="2025/11/10 12:59:00" tag="多" atr="343.02" />
+    <Trade index="202" bs="S" contract="1" price="27877" time_stamp="2025/11/11 13:09:00" tag="停損" atr="343.95" />
+    <Trade index="202" bs="B" contract="1" price="28018" time_stamp="2025/11/12 10:11:00" tag="多" atr="343.22" />
+    <Trade index="202" bs="S" contract="1" price="27864" time_stamp="2025/11/13 09:28:00" tag="停損" atr="343.65" />
+    <Trade index="202" bs="B" contract="1" price="28019" time_stamp="2025/11/13 10:32:00" tag="多" atr="343.65" />
+    <Trade index="202" bs="S" contract="1" price="27867" time_stamp="2025/11/13 11:49:00" tag="停損" atr="343.65" />
+    <Trade index="212" bs="B" contract="1" price="27308" time_stamp="2025/11/20 08:45:00" tag="多" atr="349.97" />
+    <Trade index="212" bs="S" contract="1" price="26750" time_stamp="2025/11/21 08:45:00" tag="停損" atr="356.62" />
+    <Trade index="215" bs="B" contract="1" price="27055" time_stamp="2025/11/25 08:45:00" tag="多" atr="363.72" />
+    <Trade index="215" bs="S" contract="1" price="26905" time_stamp="2025/11/25 09:39:00" tag="停損" atr="363.72" />
+    <Trade index="215" bs="B" contract="1" price="27188" time_stamp="2025/11/26 08:45:00" tag="多" atr="366.69" />
+    <Trade index="215" bs="S" contract="1" price="27564" time_stamp="2025/12/01 09:01:00" tag="移停" atr="368.23" />
+    <Trade index="219" bs="B" contract="1" price="27877" time_stamp="2025/12/03 10:16:00" tag="多" atr="369.68" />
+    <Trade index="219" bs="S" contract="1" price="27737" time_stamp="2025/12/03 10:33:00" tag="停損" atr="369.68" />
+    <Trade index="219" bs="B" contract="1" price="27880" time_stamp="2025/12/05 09:04:00" tag="多" atr="369.82" />
+    <Trade index="219" bs="S" contract="1" price="28310" time_stamp="2025/12/11 10:29:00" tag="移停" atr="366.86" />
+    <Trade index="233" bs="B" contract="1" price="27800" time_stamp="2025/12/19 08:45:00" tag="多" atr="376.08" />
+    <Trade index="200" bs="B" contract="1" price="28912" time_stamp="2025/12/29 09:52:00" tag="多" atr="373.32" />
+    <Trade index="233" bs="S" contract="1" price="28912" time_stamp="2025/12/29 09:52:00" tag="直停" atr="373.32" />
+    <Trade index="200" bs="S" contract="1" price="28762" time_stamp="2025/12/30 09:11:00" tag="停損" atr="373.45" />
+    <Trade index="200" bs="B" contract="1" price="28918" time_stamp="2025/12/30 12:09:00" tag="多" atr="373.45" />
+    <Trade index="200" bs="S" contract="1" price="30079" time_stamp="2026/01/05 09:34:00" tag="直停" atr="371.98" />
+    <Trade index="243" bs="B" contract="1" price="30169" time_stamp="2026/01/05 09:41:00" tag="多" atr="371.98" />
+    <Trade index="243" bs="S" contract="1" price="30362" time_stamp="2026/01/08 08:45:00" tag="移停" atr="382.38" />
+    <Trade index="247" bs="B" contract="1" price="30717" time_stamp="2026/01/12 08:45:00" tag="多" atr="386.89" />
+    <Trade index="247" bs="S" contract="1" price="30916" time_stamp="2026/01/13 09:35:00" tag="移停" atr="387.99" />
+    <Trade index="251" bs="B" contract="1" price="31382" time_stamp="2026/01/16 08:45:00" tag="多" atr="388.95" />
+    <Trade index="251" bs="S" contract="1" price="31223" time_stamp="2026/01/16 09:06:00" tag="停損" atr="388.95" />
+    <Trade index="251" bs="B" contract="1" price="31388" time_stamp="2026/01/16 10:39:00" tag="多" atr="388.95" />
+    <Trade index="251" bs="S" contract="1" price="31227" time_stamp="2026/01/19 08:46:00" tag="停損" atr="391.05" />
+    <Trade index="251" bs="B" contract="1" price="31390" time_stamp="2026/01/19 09:18:00" tag="多" atr="391.05" />
+    <Trade index="251" bs="S" contract="1" price="31435" time_stamp="2026/01/20 08:50:00" tag="移停" atr="394.21" />
+    <Trade index="254" bs="B" contract="1" price="31689" time_stamp="2026/01/20 10:36:00" tag="多" atr="394.21" />
+    <Trade index="254" bs="S" contract="1" price="31296" time_stamp="2026/01/21 08:45:00" tag="停損" atr="392.71" />
+    <Trade index="255" bs="B" contract="1" price="31927" time_stamp="2026/01/22 08:53:00" tag="多" atr="395.52" />
+    <Trade index="255" bs="S" contract="1" price="32659" time_stamp="2026/01/29 09:25:00" tag="移停" atr="398.78" />
+    <Trade index="263" bs="B" contract="1" price="32386" time_stamp="2026/02/03 08:45:00" tag="多" atr="409.85" />
+    <Trade index="263" bs="S" contract="1" price="32219" time_stamp="2026/02/03 09:54:00" tag="停損" atr="409.85" />
+    <Trade index="265" bs="B" contract="1" price="32372" time_stamp="2026/02/04 09:59:00" tag="多" atr="415.66" />
+    <Trade index="265" bs="S" contract="1" price="31970" time_stamp="2026/02/05 08:45:00" tag="停損" atr="417.2" />
+    <Trade index="267" bs="B" contract="1" price="31876" time_stamp="2026/02/06 10:36:00" tag="多" atr="419.03" />
+    <Trade index="267" bs="S" contract="1" price="31703" time_stamp="2026/02/06 11:43:00" tag="停損" atr="419.03" />
+    <Trade index="267" bs="B" contract="1" price="32824" time_stamp="2026/02/09 08:45:00" tag="多" atr="423.02" />
+    <Trade index="267" bs="S" contract="1" price="32635" time_stamp="2026/02/09 09:04:00" tag="停損" atr="423.02" />
+    <Trade index="267" bs="B" contract="1" price="32906" time_stamp="2026/02/10 08:45:00" tag="多" atr="431.05" />
+    <Trade index="267" bs="S" contract="1" price="34269" time_stamp="2026/02/23 08:45:00" tag="直停" atr="438.34" />
+    <Trade index="271" bs="B" contract="1" price="34469" time_stamp="2026/02/24 09:23:00" tag="多" atr="442.85" />
+    <Trade index="271" bs="S" contract="1" price="35382" time_stamp="2026/02/25 11:34:00" tag="移停" atr="450.03" />
+    <Trade index="275" bs="B" contract="1" price="35208" time_stamp="2026/03/02 09:08:00" tag="多" atr="458.73" />
+    <Trade index="275" bs="S" contract="1" price="35018" time_stamp="2026/03/03 08:45:00" tag="停損" atr="463.18" />
+    <Trade index="275" bs="B" contract="1" price="35237" time_stamp="2026/03/03 09:09:00" tag="多" atr="463.18" />
+    <Trade index="275" bs="S" contract="1" price="35060" time_stamp="2026/03/03 09:34:00" tag="停損" atr="463.18" />
+    <Trade index="277" bs="B" contract="1" price="33911" time_stamp="2026/03/05 08:45:00" tag="多" atr="484.53" />
+    <Trade index="277" bs="S" contract="1" price="33938" time_stamp="2026/03/05 09:43:00" tag="移停" atr="484.53" />
+    <Trade index="279" bs="B" contract="1" price="33752" time_stamp="2026/03/06 10:14:00" tag="多" atr="493.16" />
+    <Trade index="279" bs="S" contract="1" price="33575" time_stamp="2026/03/06 10:55:00" tag="停損" atr="493.16" />
+    <Trade index="280" bs="B" contract="1" price="31817" time_stamp="2026/03/09 09:15:00" tag="多" atr="495.31" />
+    <Trade index="280" bs="S" contract="1" price="31657" time_stamp="2026/03/09 09:27:00" tag="停損" atr="495.31" />
+    <Trade index="280" bs="B" contract="1" price="31871" time_stamp="2026/03/09 11:17:00" tag="多" atr="495.31" />
+    <Trade index="280" bs="S" contract="1" price="31701" time_stamp="2026/03/09 11:41:00" tag="停損" atr="495.31" />
+    <Trade index="280" bs="B" contract="1" price="31926" time_stamp="2026/03/09 13:22:00" tag="多" atr="495.31" />
+    <Trade index="280" bs="S" contract="1" price="33242" time_stamp="2026/03/10 08:45:00" tag="直停" atr="516.9" />
+    <Trade index="281" bs="B" contract="1" price="33440" time_stamp="2026/03/11 08:46:00" tag="多" atr="527.51" />
+    <Trade index="281" bs="S" contract="1" price="33678" time_stamp="2026/03/12 08:45:00" tag="移停" atr="538.64" />
+    <Trade index="284" bs="B" contract="1" price="33196" time_stamp="2026/03/13 09:21:00" tag="多" atr="539.12" />
+    <Trade index="284" bs="S" contract="1" price="33322" time_stamp="2026/03/16 09:11:00" tag="移停" atr="543.69" />
+    <Trade index="285" bs="B" contract="1" price="33950" time_stamp="2026/03/17 09:35:00" tag="多" atr="546.53" />
+    <Trade index="285" bs="S" contract="1" price="33756" time_stamp="2026/03/17 09:46:00" tag="停損" atr="546.53" />
+    <Trade index="285" bs="B" contract="1" price="34266" time_stamp="2026/03/18 08:45:00" tag="多" atr="544.75" />
+    <Trade index="285" bs="S" contract="1" price="34263" time_stamp="2026/03/18 13:29:00" tag="多出" type="swap" atr="544.75" />
+    <Trade index="285" bs="B" contract="1" price="34517" time_stamp="2026/03/18 13:29:00" tag="多進" type="swap" atr="544.75" />
+    <Trade index="285" bs="S" contract="1" price="33898" time_stamp="2026/03/19 08:45:00" tag="停損" atr="545.2" />
+    <Trade index="290" bs="B" contract="1" price="32684" time_stamp="2026/03/23 09:19:00" tag="多" atr="548.82" />
+    <Trade index="290" bs="S" contract="1" price="32520" time_stamp="2026/03/23 11:16:00" tag="停損" atr="548.82" />
+    <Trade index="290" bs="B" contract="1" price="32684" time_stamp="2026/03/23 13:03:00" tag="多" atr="548.82" />
+    <Trade index="290" bs="S" contract="1" price="33006" time_stamp="2026/03/24 09:15:00" tag="移停" atr="556.5" />
+    <Trade index="291" bs="B" contract="1" price="33786" time_stamp="2026/03/25 08:45:00" tag="多" atr="562.05" />
+    <Trade index="291" bs="S" contract="1" price="33608" time_stamp="2026/03/25 09:05:00" tag="停損" atr="562.05" />
+    <Trade index="291" bs="B" contract="1" price="33855" time_stamp="2026/03/26 08:45:00" tag="多" atr="570.61" />
+    <Trade index="291" bs="S" contract="1" price="33655" time_stamp="2026/03/26 10:22:00" tag="停損" atr="570.61" />
+    <Trade index="294" bs="B" contract="1" price="33134" time_stamp="2026/03/27 12:57:00" tag="多" atr="574.31" />
+    <Trade index="294" bs="S" contract="1" price="32048" time_stamp="2026/03/30 08:45:00" tag="停損" atr="578.28" />
+    <Trade index="295" bs="B" contract="1" price="32578" time_stamp="2026/03/30 11:07:00" tag="多" atr="578.28" />
+    <Trade index="295" bs="S" contract="1" price="32000" time_stamp="2026/03/31 08:45:00" tag="停損" atr="581.86" />
+    <Trade index="296" bs="B" contract="1" price="33049" time_stamp="2026/04/01 08:45:00" tag="多" atr="585.82" />
+    <Trade index="296" bs="S" contract="1" price="33402" time_stamp="2026/04/01 13:44:00" tag="策停" atr="585.82" />
+  </策略交易>
+</策略回測>
