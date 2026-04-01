@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PortfolioyList>
+  <Equity Index="0" FileName="BDS-aa-1.sea" Color="Blue" Weight="31.7" />
+  <Equity Index="1" FileName="BDS-aa-2.sea" Color="Maroon" Weight="31.7" />
+  <Equity Index="2" FileName="BDS-aa-3.sea" Color="Cyan" Weight="31.7" />
+  <Equity Index="3" FileName="BDS-aa-4.sea" Color="Green" Weight="31.7" />
+</PortfolioyList>
