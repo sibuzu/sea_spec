@@ -1,0 +1,933 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CryptoReport>
+  <Setting>
+    <Strategy>多幣組合</Strategy>
+    <Symbol>USDT,BTC,ETH</Symbol>
+    <InitCapital>10000</InitCapital>
+  </Setting>
+  <Strategy>
+    <Stg多幣組合>
+      <交易成本>0.05</交易成本>
+      <計算DD方式>交易時計算</計算DD方式>
+      <交易週期>分</交易週期>
+      <進場小時>0</進場小時>
+      <每N分>1</每N分>
+      <分偏移>0</分偏移>
+      <初始資金>10</初始資金>
+      <槓桿倍數>1</槓桿倍數>
+      <虛擬幣組合>USDT BTC ETH</虛擬幣組合>
+    </Stg多幣組合>
+  </Strategy>
+  <Trades>
+    <Trade time_stamp="2025/01/01" symbol="BTC" bs="B" price="93576" qty="0.03560386" amount="-3333.33333333" />
+    <Trade time_stamp="2025/01/01" symbol="ETH" bs="B" price="3337.78" qty="0.99816844" amount="-3333.33333333" />
+    <Trade time_stamp="2025/01/02" symbol="BTC" bs="N" price="94591.78" />
+    <Trade time_stamp="2025/01/02" symbol="ETH" bs="N" price="3360.39" />
+    <Trade time_stamp="2025/01/03" symbol="BTC" bs="S" price="96984.79" qty="0.00042406" amount="41.10657902" />
+    <Trade time_stamp="2025/01/03" symbol="ETH" bs="S" price="3455.68" qty="0.01083582" amount="37.42640254" />
+    <Trade time_stamp="2025/01/04" symbol="BTC" bs="N" price="98174.17" />
+    <Trade time_stamp="2025/01/04" symbol="ETH" bs="S" price="3609" qty="0.02410204" amount="86.94077796" />
+    <Trade time_stamp="2025/01/05" symbol="BTC" bs="B" price="98220.51" qty="0.00037472" amount="-36.82325758" />
+    <Trade time_stamp="2025/01/05" symbol="ETH" bs="N" price="3656.88" />
+    <Trade time_stamp="2025/01/06" symbol="BTC" bs="N" price="98363.61" />
+    <Trade time_stamp="2025/01/06" symbol="ETH" bs="N" price="3636" />
+    <Trade time_stamp="2025/01/07" symbol="BTC" bs="S" price="102235.6" qty="0.00083479" amount="85.30266886" />
+    <Trade time_stamp="2025/01/07" symbol="ETH" bs="N" price="3687.44" />
+    <Trade time_stamp="2025/01/08" symbol="BTC" bs="N" price="96954.6" />
+    <Trade time_stamp="2025/01/08" symbol="ETH" bs="B" price="3381.31" qty="0.03936951" amount="-133.18710301" />
+    <Trade time_stamp="2025/01/09" symbol="BTC" bs="B" price="95060.61" qty="0.00052251" amount="-49.6946269" />
+    <Trade time_stamp="2025/01/09" symbol="ETH" bs="N" price="3327.29" />
+    <Trade time_stamp="2025/01/10" symbol="BTC" bs="N" price="92552.49" />
+    <Trade time_stamp="2025/01/10" symbol="ETH" bs="B" price="3219.2" qty="0.01769956" amount="-57.00692546" />
+    <Trade time_stamp="2025/01/11" symbol="BTC" bs="N" price="94726.1" />
+    <Trade time_stamp="2025/01/11" symbol="ETH" bs="N" price="3267.05" />
+    <Trade time_stamp="2025/01/12" symbol="BTC" bs="N" price="94599.99" />
+    <Trade time_stamp="2025/01/12" symbol="ETH" bs="N" price="3282.83" />
+    <Trade time_stamp="2025/01/13" symbol="BTC" bs="N" price="94545.07" />
+    <Trade time_stamp="2025/01/13" symbol="ETH" bs="N" price="3267.3" />
+    <Trade time_stamp="2025/01/14" symbol="BTC" bs="S" price="94536.11" qty="0.00054557" amount="51.55055461" />
+    <Trade time_stamp="2025/01/14" symbol="ETH" bs="B" price="3137.51" qty="0.02513059" amount="-78.88692057" />
+    <Trade time_stamp="2025/01/15" symbol="BTC" bs="N" price="96560.85" />
+    <Trade time_stamp="2025/01/15" symbol="ETH" bs="S" price="3225.63" qty="0.01177463" amount="37.96161337" />
+    <Trade time_stamp="2025/01/16" symbol="BTC" bs="N" price="100497.35" />
+    <Trade time_stamp="2025/01/16" symbol="ETH" bs="S" price="3451.51" qty="0.03190872" amount="110.07821508" />
+    <Trade time_stamp="2025/01/17" symbol="BTC" bs="S" price="99987.3" qty="0.00065519" amount="65.47745997" />
+    <Trade time_stamp="2025/01/17" symbol="ETH" bs="B" price="3308.04" qty="0.02716153" amount="-89.89638415" />
+    <Trade time_stamp="2025/01/18" symbol="BTC" bs="S" price="104077.47" qty="0.00034641" amount="36.03574205" />
+    <Trade time_stamp="2025/01/18" symbol="ETH" bs="S" price="3473.64" qty="0.01933437" amount="67.12705546" />
+    <Trade time_stamp="2025/01/19" symbol="BTC" bs="S" price="104556.23" qty="0.00063709" amount="66.57800249" />
+    <Trade time_stamp="2025/01/19" symbol="ETH" bs="B" price="3307.71" qty="0.03536605" amount="-117.03916126" />
+    <Trade time_stamp="2025/01/20" symbol="BTC" bs="B" price="101331.57" qty="0.00038285" amount="-38.81407714" />
+    <Trade time_stamp="2025/01/20" symbol="ETH" bs="N" price="3215.2" />
+    <Trade time_stamp="2025/01/21" symbol="BTC" bs="N" price="102260" />
+    <Trade time_stamp="2025/01/21" symbol="ETH" bs="N" price="3283.99" />
+    <Trade time_stamp="2025/01/22" symbol="BTC" bs="S" price="106143.82" qty="0.00064194" amount="68.10372551" />
+    <Trade time_stamp="2025/01/22" symbol="ETH" bs="N" price="3327.55" />
+    <Trade time_stamp="2025/01/23" symbol="BTC" bs="N" price="103706.66" />
+    <Trade time_stamp="2025/01/23" symbol="ETH" bs="B" price="3242.61" qty="0.01135042" amount="-36.82340024" />
+    <Trade time_stamp="2025/01/24" symbol="BTC" bs="B" price="103910.35" qty="0.00050882" amount="-52.89763372" />
+    <Trade time_stamp="2025/01/24" symbol="ETH" bs="S" price="3338.22" qty="0.01949804" amount="65.05620379" />
+    <Trade time_stamp="2025/01/25" symbol="BTC" bs="N" price="104870.51" />
+    <Trade time_stamp="2025/01/25" symbol="ETH" bs="N" price="3310.1" />
+    <Trade time_stamp="2025/01/26" symbol="BTC" bs="N" price="104746.86" />
+    <Trade time_stamp="2025/01/26" symbol="ETH" bs="N" price="3318.76" />
+    <Trade time_stamp="2025/01/27" symbol="BTC" bs="N" price="102620.01" />
+    <Trade time_stamp="2025/01/27" symbol="ETH" bs="B" price="3232.61" qty="0.01813458" amount="-58.65135146" />
+    <Trade time_stamp="2025/01/28" symbol="BTC" bs="N" price="102082.83" />
+    <Trade time_stamp="2025/01/28" symbol="ETH" bs="N" price="3182.44" />
+    <Trade time_stamp="2025/01/29" symbol="BTC" bs="S" price="101335.52" qty="0.00033348" amount="33.77608325" />
+    <Trade time_stamp="2025/01/29" symbol="ETH" bs="B" price="3077.72" qty="0.03075096" amount="-94.69018199" />
+    <Trade time_stamp="2025/01/30" symbol="BTC" bs="S" price="103733.25" qty="0.00038211" amount="39.61717833" />
+    <Trade time_stamp="2025/01/30" symbol="ETH" bs="N" price="3113.9" />
+    <Trade time_stamp="2025/01/31" symbol="BTC" bs="N" price="104722.94" />
+    <Trade time_stamp="2025/01/31" symbol="ETH" bs="S" price="3247.38" qty="0.02638177" amount="85.62879881" />
+    <Trade time_stamp="2025/02/01" symbol="BTC" bs="B" price="102429.56" qty="0.00093228" amount="-95.54085407" />
+    <Trade time_stamp="2025/02/01" symbol="ETH" bs="S" price="3300.99" qty="0.01902123" amount="62.75750442" />
+    <Trade time_stamp="2025/02/02" symbol="BTC" bs="N" price="100635.66" />
+    <Trade time_stamp="2025/02/02" symbol="ETH" bs="B" price="3117.54" qty="0.03435375" amount="-107.15277149" />
+    <Trade time_stamp="2025/02/03" symbol="BTC" bs="S" price="97700.59" qty="0.00047804" amount="46.68117889" />
+    <Trade time_stamp="2025/02/03" symbol="ETH" bs="B" price="2869.68" qty="0.05043634" amount="-144.80855347" />
+    <Trade time_stamp="2025/02/04" symbol="BTC" bs="S" price="101328.51" qty="0.00075131" amount="76.0912584" />
+    <Trade time_stamp="2025/02/04" symbol="ETH" bs="N" price="2879.89" />
+    <Trade time_stamp="2025/02/05" symbol="BTC" bs="N" price="97763.14" />
+    <Trade time_stamp="2025/02/05" symbol="ETH" bs="B" price="2731.19" qty="0.0386024" amount="-105.48322631" />
+    <Trade time_stamp="2025/02/06" symbol="BTC" bs="B" price="96612.44" qty="0.00070219" amount="-67.87410981" />
+    <Trade time_stamp="2025/02/06" symbol="ETH" bs="S" price="2788.25" qty="0.02030595" amount="56.58974696" />
+    <Trade time_stamp="2025/02/07" symbol="BTC" bs="S" price="96554.35" qty="0.00038774" amount="37.41968635" />
+    <Trade time_stamp="2025/02/07" symbol="ETH" bs="B" price="2686.63" qty="0.02857143" amount="-76.79924883" />
+    <Trade time_stamp="2025/02/08" symbol="BTC" bs="N" price="96506.8" />
+    <Trade time_stamp="2025/02/08" symbol="ETH" bs="B" price="2622.11" qty="0.01902525" amount="-49.91124341" />
+    <Trade time_stamp="2025/02/09" symbol="BTC" bs="N" price="96444.75" />
+    <Trade time_stamp="2025/02/09" symbol="ETH" bs="N" price="2632.46" />
+    <Trade time_stamp="2025/02/10" symbol="BTC" bs="N" price="96462.75" />
+    <Trade time_stamp="2025/02/10" symbol="ETH" bs="N" price="2627.18" />
+    <Trade time_stamp="2025/02/11" symbol="BTC" bs="N" price="97430.82" />
+    <Trade time_stamp="2025/02/11" symbol="ETH" bs="N" price="2661.19" />
+    <Trade time_stamp="2025/02/12" symbol="BTC" bs="N" price="95778.21" />
+    <Trade time_stamp="2025/02/12" symbol="ETH" bs="N" price="2602.59" />
+    <Trade time_stamp="2025/02/13" symbol="BTC" bs="N" price="97870" />
+    <Trade time_stamp="2025/02/13" symbol="ETH" bs="S" price="2738.27" qty="0.02826362" amount="77.35471619" />
+    <Trade time_stamp="2025/02/14" symbol="BTC" bs="N" price="96608.13" />
+    <Trade time_stamp="2025/02/14" symbol="ETH" bs="B" price="2675.87" qty="0.01293843" amount="-34.6388819" />
+    <Trade time_stamp="2025/02/15" symbol="BTC" bs="N" price="97500.47" />
+    <Trade time_stamp="2025/02/15" symbol="ETH" bs="N" price="2725.95" />
+    <Trade time_stamp="2025/02/16" symbol="BTC" bs="N" price="97569.67" />
+    <Trade time_stamp="2025/02/16" symbol="ETH" bs="N" price="2693.04" />
+    <Trade time_stamp="2025/02/17" symbol="BTC" bs="N" price="96118.12" />
+    <Trade time_stamp="2025/02/17" symbol="ETH" bs="N" price="2661.41" />
+    <Trade time_stamp="2025/02/18" symbol="BTC" bs="B" price="95780.01" qty="0.00041983" amount="-40.23156422" />
+    <Trade time_stamp="2025/02/18" symbol="ETH" bs="S" price="2744.05" qty="0.02274974" amount="62.39520632" />
+    <Trade time_stamp="2025/02/19" symbol="BTC" bs="N" price="95671.74" />
+    <Trade time_stamp="2025/02/19" symbol="ETH" bs="B" price="2672" qty="0.0202622" amount="-54.16768991" />
+    <Trade time_stamp="2025/02/20" symbol="BTC" bs="N" price="96644.37" />
+    <Trade time_stamp="2025/02/20" symbol="ETH" bs="N" price="2715.51" />
+    <Trade time_stamp="2025/02/21" symbol="BTC" bs="S" price="98305.01" qty="0.0005846" amount="57.44022613" />
+    <Trade time_stamp="2025/02/21" symbol="ETH" bs="N" price="2738.04" />
+    <Trade time_stamp="2025/02/22" symbol="BTC" bs="N" price="96181.99" />
+    <Trade time_stamp="2025/02/22" symbol="ETH" bs="N" price="2663" />
+    <Trade time_stamp="2025/02/23" symbol="BTC" bs="B" price="96551.01" qty="0.00049462" amount="-47.77963665" />
+    <Trade time_stamp="2025/02/23" symbol="ETH" bs="S" price="2763.23" qty="0.02219137" amount="61.28921118" />
+    <Trade time_stamp="2025/02/24" symbol="BTC" bs="N" price="96258" />
+    <Trade time_stamp="2025/02/24" symbol="ETH" bs="S" price="2819.7" qty="0.01651415" amount="46.54167322" />
+    <Trade time_stamp="2025/02/25" symbol="BTC" bs="N" price="91552.88" />
+    <Trade time_stamp="2025/02/25" symbol="ETH" bs="B" price="2513.52" qty="0.07153434" amount="-179.89293635" />
+    <Trade time_stamp="2025/02/26" symbol="BTC" bs="B" price="88680.39" qty="0.00080608" amount="-71.51968723" />
+    <Trade time_stamp="2025/02/26" symbol="ETH" bs="N" price="2495.69" />
+    <Trade time_stamp="2025/02/27" symbol="BTC" bs="B" price="84250.09" qty="0.00042294" amount="-35.65083797" />
+    <Trade time_stamp="2025/02/27" symbol="ETH" bs="B" price="2336.38" qty="0.02613513" amount="-61.09213061" />
+    <Trade time_stamp="2025/02/28" symbol="BTC" bs="N" price="84708.57" />
+    <Trade time_stamp="2025/02/28" symbol="ETH" bs="B" price="2307.72" qty="0.01246398" amount="-28.77776536" />
+    <Trade time_stamp="2025/03/01" symbol="BTC" bs="S" price="84349.95" qty="0.00051147" amount="43.12095626" />
+    <Trade time_stamp="2025/03/01" symbol="ETH" bs="B" price="2237.59" qty="0.02417154" amount="-54.11306129" />
+    <Trade time_stamp="2025/03/02" symbol="BTC" bs="S" price="86064.54" qty="0.00054641" amount="47.00320938" />
+    <Trade time_stamp="2025/03/02" symbol="ETH" bs="B" price="2217.4" qty="0.01637319" amount="-36.32408445" />
+    <Trade time_stamp="2025/03/03" symbol="BTC" bs="S" price="94269.99" qty="0.00055498" amount="52.29180701" />
+    <Trade time_stamp="2025/03/03" symbol="ETH" bs="S" price="2518.12" qty="0.06634873" amount="166.99052249" />
+    <Trade time_stamp="2025/03/04" symbol="BTC" bs="N" price="86221.16" />
+    <Trade time_stamp="2025/03/04" symbol="ETH" bs="B" price="2149.02" qty="0.09884092" amount="-212.51737576" />
+    <Trade time_stamp="2025/03/05" symbol="BTC" bs="N" price="87281.98" />
+    <Trade time_stamp="2025/03/05" symbol="ETH" bs="N" price="2171.5" />
+    <Trade time_stamp="2025/03/06" symbol="BTC" bs="S" price="90606" qty="0.00032936" amount="29.82722206" />
+    <Trade time_stamp="2025/03/06" symbol="ETH" bs="S" price="2241.59" qty="0.015016" amount="33.64288928" />
+    <Trade time_stamp="2025/03/07" symbol="BTC" bs="N" price="89931.88" />
+    <Trade time_stamp="2025/03/07" symbol="ETH" bs="N" price="2202.21" />
+    <Trade time_stamp="2025/03/08" symbol="BTC" bs="B" price="86801.74" qty="0.00044107" amount="-38.30504687" />
+    <Trade time_stamp="2025/03/08" symbol="ETH" bs="B" price="2141.6" qty="0.02144744" amount="-45.95480582" />
+    <Trade time_stamp="2025/03/09" symbol="BTC" bs="B" price="86222.46" qty="0.00046335" amount="-39.97104473" />
+    <Trade time_stamp="2025/03/09" symbol="ETH" bs="S" price="2203.57" qty="0.02768211" amount="60.96896878" />
+    <Trade time_stamp="2025/03/10" symbol="BTC" bs="B" price="80734.48" qty="0.00052093" amount="-42.07799305" />
+    <Trade time_stamp="2025/03/10" symbol="ETH" bs="B" price="2020.43" qty="0.04830882" amount="-97.6534094" />
+    <Trade time_stamp="2025/03/11" symbol="BTC" bs="N" price="78595.86" />
+    <Trade time_stamp="2025/03/11" symbol="ETH" bs="B" price="1865.11" qty="0.06177361" amount="-115.27222163" />
+    <Trade time_stamp="2025/03/12" symbol="BTC" bs="S" price="82932.99" qty="0.00110481" amount="91.57917911" />
+    <Trade time_stamp="2025/03/12" symbol="ETH" bs="N" price="1923.42" />
+    <Trade time_stamp="2025/03/13" symbol="BTC" bs="N" price="83680.12" />
+    <Trade time_stamp="2025/03/13" symbol="ETH" bs="N" price="1908.2" />
+    <Trade time_stamp="2025/03/14" symbol="BTC" bs="N" price="81115.78" />
+    <Trade time_stamp="2025/03/14" symbol="ETH" bs="B" price="1864.59" qty="0.01578448" amount="-29.44630492" />
+    <Trade time_stamp="2025/03/15" symbol="BTC" bs="S" price="83983.19" qty="0.00033438" amount="28.06823783" />
+    <Trade time_stamp="2025/03/15" symbol="ETH" bs="N" price="1911.64" />
+    <Trade time_stamp="2025/03/16" symbol="BTC" bs="N" price="84338.44" />
+    <Trade time_stamp="2025/03/16" symbol="ETH" bs="S" price="1937.18" qty="0.01749886" amount="33.88148923" />
+    <Trade time_stamp="2025/03/17" symbol="BTC" bs="N" price="82574.52" />
+    <Trade time_stamp="2025/03/17" symbol="ETH" bs="B" price="1887.01" qty="0.01485091" amount="-28.03782952" />
+    <Trade time_stamp="2025/03/18" symbol="BTC" bs="N" price="84010.02" />
+    <Trade time_stamp="2025/03/18" symbol="ETH" bs="N" price="1926.3" />
+    <Trade time_stamp="2025/03/19" symbol="BTC" bs="B" price="82715.03" qty="0.00044596" amount="-36.90601246" />
+    <Trade time_stamp="2025/03/19" symbol="ETH" bs="S" price="1931.54" qty="0.02103218" amount="40.60418228" />
+    <Trade time_stamp="2025/03/20" symbol="BTC" bs="S" price="86845.93" qty="0.00036719" amount="31.8728892" />
+    <Trade time_stamp="2025/03/20" symbol="ETH" bs="S" price="2056.05" qty="0.03459656" amount="71.096683" />
+    <Trade time_stamp="2025/03/21" symbol="BTC" bs="N" price="84223.38" />
+    <Trade time_stamp="2025/03/21" symbol="ETH" bs="B" price="1983.79" qty="0.01887387" amount="-37.46051593" />
+    <Trade time_stamp="2025/03/22" symbol="BTC" bs="N" price="84088.79" />
+    <Trade time_stamp="2025/03/22" symbol="ETH" bs="N" price="1965.74" />
+    <Trade time_stamp="2025/03/23" symbol="BTC" bs="B" price="83840.59" qty="0.00036226" amount="-30.38717617" />
+    <Trade time_stamp="2025/03/23" symbol="ETH" bs="N" price="1980.68" />
+    <Trade time_stamp="2025/03/24" symbol="BTC" bs="S" price="86082.5" qty="0.0004313" amount="37.10878736" />
+    <Trade time_stamp="2025/03/24" symbol="ETH" bs="N" price="2005.99" />
+    <Trade time_stamp="2025/03/25" symbol="BTC" bs="N" price="87498.16" />
+    <Trade time_stamp="2025/03/25" symbol="ETH" bs="S" price="2081.2" qty="0.02609671" amount="54.28531551" />
+    <Trade time_stamp="2025/03/26" symbol="BTC" bs="N" price="87392.88" />
+    <Trade time_stamp="2025/03/26" symbol="ETH" bs="N" price="2066.16" />
+    <Trade time_stamp="2025/03/27" symbol="BTC" bs="N" price="86909.17" />
+    <Trade time_stamp="2025/03/27" symbol="ETH" bs="B" price="2009.52" qty="0.02909601" amount="-58.49825799" />
+    <Trade time_stamp="2025/03/28" symbol="BTC" bs="N" price="87232.01" />
+    <Trade time_stamp="2025/03/28" symbol="ETH" bs="N" price="2003.67" />
+    <Trade time_stamp="2025/03/29" symbol="BTC" bs="N" price="84424.38" />
+    <Trade time_stamp="2025/03/29" symbol="ETH" bs="B" price="1896.9" qty="0.04077182" amount="-77.37875868" />
+    <Trade time_stamp="2025/03/30" symbol="BTC" bs="N" price="82648.53" />
+    <Trade time_stamp="2025/03/30" symbol="ETH" bs="B" price="1828.09" qty="0.02536605" amount="-46.39461754" />
+    <Trade time_stamp="2025/03/31" symbol="BTC" bs="N" price="82390" />
+    <Trade time_stamp="2025/03/31" symbol="ETH" bs="N" price="1807.74" />
+    <Trade time_stamp="2025/04/01" symbol="BTC" bs="N" price="82550" />
+    <Trade time_stamp="2025/04/01" symbol="ETH" bs="N" price="1822.43" />
+    <Trade time_stamp="2025/04/02" symbol="BTC" bs="N" price="85158.35" />
+    <Trade time_stamp="2025/04/02" symbol="ETH" bs="S" price="1904.98" qty="0.02491096" amount="47.43114952" />
+    <Trade time_stamp="2025/04/03" symbol="BTC" bs="N" price="82516.28" />
+    <Trade time_stamp="2025/04/03" symbol="ETH" bs="B" price="1795.21" qty="0.04233931" amount="-76.04597747" />
+    <Trade time_stamp="2025/04/04" symbol="BTC" bs="N" price="83213.09" />
+    <Trade time_stamp="2025/04/04" symbol="ETH" bs="N" price="1817.23" />
+    <Trade time_stamp="2025/04/05" symbol="BTC" bs="S" price="83889.87" qty="0.000475" amount="39.82818014" />
+    <Trade time_stamp="2025/04/05" symbol="ETH" bs="N" price="1816.88" />
+    <Trade time_stamp="2025/04/06" symbol="BTC" bs="N" price="83537.99" />
+    <Trade time_stamp="2025/04/06" symbol="ETH" bs="N" price="1806.02" />
+    <Trade time_stamp="2025/04/07" symbol="BTC" bs="N" price="78430" />
+    <Trade time_stamp="2025/04/07" symbol="ETH" bs="B" price="1580.77" qty="0.10562835" amount="-167.05765901" />
+    <Trade time_stamp="2025/04/08" symbol="BTC" bs="S" price="79163.24" qty="0.0003815" amount="30.18596431" />
+    <Trade time_stamp="2025/04/08" symbol="ETH" bs="B" price="1553.04" qty="0.02376851" amount="-36.93191138" />
+    <Trade time_stamp="2025/04/09" symbol="BTC" bs="N" price="76322.42" />
+    <Trade time_stamp="2025/04/09" symbol="ETH" bs="B" price="1473.41" qty="0.03743197" amount="-55.18022568" />
+    <Trade time_stamp="2025/04/10" symbol="BTC" bs="N" price="82615.22" />
+    <Trade time_stamp="2025/04/10" symbol="ETH" bs="S" price="1669.51" qty="0.08870717" amount="148.02346211" />
+    <Trade time_stamp="2025/04/11" symbol="BTC" bs="N" price="79607.3" />
+    <Trade time_stamp="2025/04/11" symbol="ETH" bs="B" price="1522.24" qty="0.07909487" amount="-120.46160267" />
+    <Trade time_stamp="2025/04/12" symbol="BTC" bs="S" price="83423.83" qty="0.00091602" amount="76.38006373" />
+    <Trade time_stamp="2025/04/12" symbol="ETH" bs="N" price="1566.85" />
+    <Trade time_stamp="2025/04/13" symbol="BTC" bs="N" price="85276.91" />
+    <Trade time_stamp="2025/04/13" symbol="ETH" bs="S" price="1644.19" qty="0.04470571" amount="73.46792308" />
+    <Trade time_stamp="2025/04/14" symbol="BTC" bs="N" price="83760" />
+    <Trade time_stamp="2025/04/14" symbol="ETH" bs="B" price="1597.76" qty="0.02099168" amount="-33.55644201" />
+    <Trade time_stamp="2025/04/15" symbol="BTC" bs="N" price="84591.58" />
+    <Trade time_stamp="2025/04/15" symbol="ETH" bs="N" price="1623.78" />
+    <Trade time_stamp="2025/04/16" symbol="BTC" bs="N" price="83643.99" />
+    <Trade time_stamp="2025/04/16" symbol="ETH" bs="N" price="1588.77" />
+    <Trade time_stamp="2025/04/17" symbol="BTC" bs="N" price="84030.38" />
+    <Trade time_stamp="2025/04/17" symbol="ETH" bs="N" price="1577.15" />
+    <Trade time_stamp="2025/04/18" symbol="BTC" bs="N" price="84947.92" />
+    <Trade time_stamp="2025/04/18" symbol="ETH" bs="B" price="1583.63" qty="0.0171467" amount="-27.16761996" />
+    <Trade time_stamp="2025/04/19" symbol="BTC" bs="N" price="84474.7" />
+    <Trade time_stamp="2025/04/19" symbol="ETH" bs="N" price="1588.6" />
+    <Trade time_stamp="2025/04/20" symbol="BTC" bs="N" price="85077" />
+    <Trade time_stamp="2025/04/20" symbol="ETH" bs="S" price="1613.26" qty="0.01901861" amount="30.66662258" />
+    <Trade time_stamp="2025/04/21" symbol="BTC" bs="N" price="85179.24" />
+    <Trade time_stamp="2025/04/21" symbol="ETH" bs="B" price="1587.36" qty="0.01805674" amount="-28.67688225" />
+    <Trade time_stamp="2025/04/22" symbol="BTC" bs="S" price="87516.22" qty="0.00085976" amount="75.20558216" />
+    <Trade time_stamp="2025/04/22" symbol="ETH" bs="B" price="1579.57" qty="0.02033583" amount="-32.13792858" />
+    <Trade time_stamp="2025/04/23" symbol="BTC" bs="N" price="93442.99" />
+    <Trade time_stamp="2025/04/23" symbol="ETH" bs="S" price="1756.25" qty="0.0766665" amount="134.57822454" />
+    <Trade time_stamp="2025/04/24" symbol="BTC" bs="N" price="93691.07" />
+    <Trade time_stamp="2025/04/24" symbol="ETH" bs="S" price="1795.08" qty="0.0211856" amount="38.01083447" />
+    <Trade time_stamp="2025/04/25" symbol="BTC" bs="N" price="93980.47" />
+    <Trade time_stamp="2025/04/25" symbol="ETH" bs="B" price="1769.64" qty="0.01637534" amount="-28.99294928" />
+    <Trade time_stamp="2025/04/26" symbol="BTC" bs="S" price="94638.68" qty="0.00030726" amount="29.06408114" />
+    <Trade time_stamp="2025/04/26" symbol="ETH" bs="N" price="1784.6" />
+    <Trade time_stamp="2025/04/27" symbol="BTC" bs="N" price="94628" />
+    <Trade time_stamp="2025/04/27" symbol="ETH" bs="S" price="1820.87" qty="0.02571081" amount="46.79262719" />
+    <Trade time_stamp="2025/04/28" symbol="BTC" bs="N" price="93749.29" />
+    <Trade time_stamp="2025/04/28" symbol="ETH" bs="N" price="1791.29" />
+    <Trade time_stamp="2025/04/29" symbol="BTC" bs="N" price="95011.18" />
+    <Trade time_stamp="2025/04/29" symbol="ETH" bs="N" price="1799.88" />
+    <Trade time_stamp="2025/04/30" symbol="BTC" bs="N" price="94256.82" />
+    <Trade time_stamp="2025/04/30" symbol="ETH" bs="N" price="1797.81" />
+    <Trade time_stamp="2025/05/01" symbol="BTC" bs="N" price="94172" />
+    <Trade time_stamp="2025/05/01" symbol="ETH" bs="N" price="1793.62" />
+    <Trade time_stamp="2025/05/02" symbol="BTC" bs="N" price="96489.9" />
+    <Trade time_stamp="2025/05/02" symbol="ETH" bs="N" price="1838.1" />
+    <Trade time_stamp="2025/05/03" symbol="BTC" bs="N" price="96887.13" />
+    <Trade time_stamp="2025/05/03" symbol="ETH" bs="N" price="1842.2" />
+    <Trade time_stamp="2025/05/04" symbol="BTC" bs="N" price="95856.42" />
+    <Trade time_stamp="2025/05/04" symbol="ETH" bs="N" price="1833.52" />
+    <Trade time_stamp="2025/05/05" symbol="BTC" bs="N" price="94277.61" />
+    <Trade time_stamp="2025/05/05" symbol="ETH" bs="N" price="1808.86" />
+    <Trade time_stamp="2025/05/06" symbol="BTC" bs="N" price="94733.68" />
+    <Trade time_stamp="2025/05/06" symbol="ETH" bs="N" price="1820.19" />
+    <Trade time_stamp="2025/05/07" symbol="BTC" bs="N" price="96834.02" />
+    <Trade time_stamp="2025/05/07" symbol="ETH" bs="N" price="1817" />
+    <Trade time_stamp="2025/05/08" symbol="BTC" bs="S" price="97030.5" qty="0.0003386" amount="32.83791047" />
+    <Trade time_stamp="2025/05/08" symbol="ETH" bs="B" price="1811.11" qty="0.01843928" amount="-33.41226579" />
+    <Trade time_stamp="2025/05/09" symbol="BTC" bs="B" price="103261.61" qty="0.00081874" amount="-84.58631307" />
+    <Trade time_stamp="2025/05/09" symbol="ETH" bs="S" price="2207.39" qty="0.15835064" amount="349.36684068" />
+    <Trade time_stamp="2025/05/10" symbol="BTC" bs="B" price="102971.99" qty="0.00067558" amount="-69.60049123" />
+    <Trade time_stamp="2025/05/10" symbol="ETH" bs="S" price="2345.04" qty="0.05574046" amount="130.64825169" />
+    <Trade time_stamp="2025/05/11" symbol="BTC" bs="B" price="104809.53" qty="0.00065638" amount="-68.82879245" />
+    <Trade time_stamp="2025/05/11" symbol="ETH" bs="S" price="2583.22" qty="0.0749528" amount="193.52274963" />
+    <Trade time_stamp="2025/05/12" symbol="BTC" bs="N" price="104118" />
+    <Trade time_stamp="2025/05/12" symbol="ETH" bs="B" price="2514.58" qty="0.02008094" amount="-50.52039004" />
+    <Trade time_stamp="2025/05/13" symbol="BTC" bs="N" price="102791.32" />
+    <Trade time_stamp="2025/05/13" symbol="ETH" bs="N" price="2495.48" />
+    <Trade time_stamp="2025/05/14" symbol="BTC" bs="B" price="104103.72" qty="0.00054051" amount="-56.29673113" />
+    <Trade time_stamp="2025/05/14" symbol="ETH" bs="S" price="2679.71" qty="0.05270323" amount="141.15876781" />
+    <Trade time_stamp="2025/05/15" symbol="BTC" bs="N" price="103507.83" />
+    <Trade time_stamp="2025/05/15" symbol="ETH" bs="B" price="2609.75" qty="0.01953381" amount="-51.00386714" />
+    <Trade time_stamp="2025/05/16" symbol="BTC" bs="S" price="103763.71" qty="0.00045209" amount="46.88684221" />
+    <Trade time_stamp="2025/05/16" symbol="ETH" bs="B" price="2548.7" qty="0.02099256" amount="-53.53050634" />
+    <Trade time_stamp="2025/05/17" symbol="BTC" bs="N" price="103463.9" />
+    <Trade time_stamp="2025/05/17" symbol="ETH" bs="N" price="2537.13" />
+    <Trade time_stamp="2025/05/18" symbol="BTC" bs="N" price="103126.65" />
+    <Trade time_stamp="2025/05/18" symbol="ETH" bs="B" price="2475.09" qty="0.02248814" amount="-55.68800273" />
+    <Trade time_stamp="2025/05/19" symbol="BTC" bs="S" price="106454.27" qty="0.00072648" amount="77.29847669" />
+    <Trade time_stamp="2025/05/19" symbol="ETH" bs="N" price="2497.78" />
+    <Trade time_stamp="2025/05/20" symbol="BTC" bs="N" price="105573.73" />
+    <Trade time_stamp="2025/05/20" symbol="ETH" bs="N" price="2528.14" />
+    <Trade time_stamp="2025/05/21" symbol="BTC" bs="N" price="106850" />
+    <Trade time_stamp="2025/05/21" symbol="ETH" bs="N" price="2524.19" />
+    <Trade time_stamp="2025/05/22" symbol="BTC" bs="S" price="109643.99" qty="0.00038176" amount="41.83682839" />
+    <Trade time_stamp="2025/05/22" symbol="ETH" bs="N" price="2551" />
+    <Trade time_stamp="2025/05/23" symbol="BTC" bs="N" price="111696.22" />
+    <Trade time_stamp="2025/05/23" symbol="ETH" bs="S" price="2664.83" qty="0.02847756" amount="75.84991358" />
+    <Trade time_stamp="2025/05/24" symbol="BTC" bs="B" price="107318.3" qty="0.00034802" amount="-37.36753201" />
+    <Trade time_stamp="2025/05/24" symbol="ETH" bs="B" price="2526.49" qty="0.02873329" amount="-72.63067622" />
+    <Trade time_stamp="2025/05/25" symbol="BTC" bs="N" price="107761.9" />
+    <Trade time_stamp="2025/05/25" symbol="ETH" bs="N" price="2530.41" />
+    <Trade time_stamp="2025/05/26" symbol="BTC" bs="N" price="109004.2" />
+    <Trade time_stamp="2025/05/26" symbol="ETH" bs="N" price="2551.22" />
+    <Trade time_stamp="2025/05/27" symbol="BTC" bs="N" price="109434.78" />
+    <Trade time_stamp="2025/05/27" symbol="ETH" bs="N" price="2563.7" />
+    <Trade time_stamp="2025/05/28" symbol="BTC" bs="N" price="108938.17" />
+    <Trade time_stamp="2025/05/28" symbol="ETH" bs="S" price="2660.81" qty="0.03730945" amount="99.2237113" />
+    <Trade time_stamp="2025/05/29" symbol="BTC" bs="B" price="107781.78" qty="0.00052992" amount="-57.14377597" />
+    <Trade time_stamp="2025/05/29" symbol="ETH" bs="N" price="2681.61" />
+    <Trade time_stamp="2025/05/30" symbol="BTC" bs="N" price="105589.75" />
+    <Trade time_stamp="2025/05/30" symbol="ETH" bs="N" price="2631.39" />
+    <Trade time_stamp="2025/05/31" symbol="BTC" bs="N" price="103985.47" />
+    <Trade time_stamp="2025/05/31" symbol="ETH" bs="B" price="2531.35" qty="0.02266025" amount="-57.38970655" />
+    <Trade time_stamp="2025/06/01" symbol="BTC" bs="N" price="104591.88" />
+    <Trade time_stamp="2025/06/01" symbol="ETH" bs="N" price="2528.06" />
+    <Trade time_stamp="2025/06/02" symbol="BTC" bs="N" price="105642.93" />
+    <Trade time_stamp="2025/06/02" symbol="ETH" bs="N" price="2539.2" />
+    <Trade time_stamp="2025/06/03" symbol="BTC" bs="N" price="105858" />
+    <Trade time_stamp="2025/06/03" symbol="ETH" bs="S" price="2607.42" qty="0.01743227" amount="45.43051559" />
+    <Trade time_stamp="2025/06/04" symbol="BTC" bs="N" price="105376.9" />
+    <Trade time_stamp="2025/06/04" symbol="ETH" bs="N" price="2593.35" />
+    <Trade time_stamp="2025/06/05" symbol="BTC" bs="B" price="104696.86" qty="0.00031798" amount="-33.30829383" />
+    <Trade time_stamp="2025/06/05" symbol="ETH" bs="N" price="2607.68" />
+    <Trade time_stamp="2025/06/06" symbol="BTC" bs="N" price="101508.69" />
+    <Trade time_stamp="2025/06/06" symbol="ETH" bs="B" price="2414.02" qty="0.04854811" amount="-117.25474339" />
+    <Trade time_stamp="2025/06/07" symbol="BTC" bs="S" price="104288.43" qty="0.00043879" amount="45.7381404" />
+    <Trade time_stamp="2025/06/07" symbol="ETH" bs="N" price="2476.1" />
+    <Trade time_stamp="2025/06/08" symbol="BTC" bs="N" price="105552.15" />
+    <Trade time_stamp="2025/06/08" symbol="ETH" bs="S" price="2524.64" qty="0.02159555" amount="54.49371661" />
+    <Trade time_stamp="2025/06/09" symbol="BTC" bs="N" price="105734.01" />
+    <Trade time_stamp="2025/06/09" symbol="ETH" bs="N" price="2509.84" />
+    <Trade time_stamp="2025/06/10" symbol="BTC" bs="S" price="110263.02" qty="0.00031683" amount="34.91670254" />
+    <Trade time_stamp="2025/06/10" symbol="ETH" bs="S" price="2680.13" qty="0.03172195" amount="84.97644896" />
+    <Trade time_stamp="2025/06/11" symbol="BTC" bs="B" price="110274.39" qty="0.00051462" amount="-56.77812893" />
+    <Trade time_stamp="2025/06/11" symbol="ETH" bs="S" price="2816.41" qty="0.04046399" amount="113.90620897" />
+    <Trade time_stamp="2025/06/12" symbol="BTC" bs="N" price="108645.13" />
+    <Trade time_stamp="2025/06/12" symbol="ETH" bs="N" price="2771.6" />
+    <Trade time_stamp="2025/06/13" symbol="BTC" bs="N" price="105671.74" />
+    <Trade time_stamp="2025/06/13" symbol="ETH" bs="B" price="2642.66" qty="0.03521106" amount="-93.09739661" />
+    <Trade time_stamp="2025/06/14" symbol="BTC" bs="N" price="106066.59" />
+    <Trade time_stamp="2025/06/14" symbol="ETH" bs="B" price="2579.19" qty="0.02209421" amount="-57.01367805" />
+    <Trade time_stamp="2025/06/15" symbol="BTC" bs="N" price="105414.63" />
+    <Trade time_stamp="2025/06/15" symbol="ETH" bs="B" price="2530.77" qty="0.01356384" amount="-34.34414404" />
+    <Trade time_stamp="2025/06/16" symbol="BTC" bs="N" price="105594.02" />
+    <Trade time_stamp="2025/06/16" symbol="ETH" bs="N" price="2547.62" />
+    <Trade time_stamp="2025/06/17" symbol="BTC" bs="S" price="106794.53" qty="0.00037128" amount="39.63131077" />
+    <Trade time_stamp="2025/06/17" symbol="ETH" bs="N" price="2544.17" />
+    <Trade time_stamp="2025/06/18" symbol="BTC" bs="N" price="104551.17" />
+    <Trade time_stamp="2025/06/18" symbol="ETH" bs="N" price="2509.95" />
+    <Trade time_stamp="2025/06/19" symbol="BTC" bs="N" price="104886.79" />
+    <Trade time_stamp="2025/06/19" symbol="ETH" bs="N" price="2525" />
+    <Trade time_stamp="2025/06/20" symbol="BTC" bs="B" price="104658.59" qty="0.00032255" amount="-33.77459561" />
+    <Trade time_stamp="2025/06/20" symbol="ETH" bs="N" price="2521.13" />
+    <Trade time_stamp="2025/06/21" symbol="BTC" bs="N" price="103297.98" />
+    <Trade time_stamp="2025/06/21" symbol="ETH" bs="B" price="2406.49" qty="0.03527332" amount="-84.92735066" />
+    <Trade time_stamp="2025/06/22" symbol="BTC" bs="S" price="102120.02" qty="0.00044542" amount="45.46345158" />
+    <Trade time_stamp="2025/06/22" symbol="ETH" bs="B" price="2295.72" qty="0.03719066" amount="-85.42205947" />
+    <Trade time_stamp="2025/06/23" symbol="BTC" bs="N" price="100963.87" />
+    <Trade time_stamp="2025/06/23" symbol="ETH" bs="B" price="2227.7" qty="0.0223647" amount="-49.84677461" />
+    <Trade time_stamp="2025/06/24" symbol="BTC" bs="N" price="105333.94" />
+    <Trade time_stamp="2025/06/24" symbol="ETH" bs="S" price="2411.66" qty="0.05175922" amount="124.76323973" />
+    <Trade time_stamp="2025/06/25" symbol="BTC" bs="N" price="106083" />
+    <Trade time_stamp="2025/06/25" symbol="ETH" bs="N" price="2448.46" />
+    <Trade time_stamp="2025/06/26" symbol="BTC" bs="S" price="107340.59" qty="0.00046051" amount="49.40691201" />
+    <Trade time_stamp="2025/06/26" symbol="ETH" bs="N" price="2418.5" />
+    <Trade time_stamp="2025/06/27" symbol="BTC" bs="N" price="106947.06" />
+    <Trade time_stamp="2025/06/27" symbol="ETH" bs="N" price="2415.96" />
+    <Trade time_stamp="2025/06/28" symbol="BTC" bs="N" price="107047.58" />
+    <Trade time_stamp="2025/06/28" symbol="ETH" bs="N" price="2423.17" />
+    <Trade time_stamp="2025/06/29" symbol="BTC" bs="N" price="107296.79" />
+    <Trade time_stamp="2025/06/29" symbol="ETH" bs="N" price="2435.62" />
+    <Trade time_stamp="2025/06/30" symbol="BTC" bs="N" price="108356.93" />
+    <Trade time_stamp="2025/06/30" symbol="ETH" bs="S" price="2500.09" qty="0.01910257" amount="47.73425925" />
+    <Trade time_stamp="2025/07/01" symbol="BTC" bs="B" price="107146.51" qty="0.00031374" amount="-33.63349752" />
+    <Trade time_stamp="2025/07/01" symbol="ETH" bs="N" price="2485.47" />
+    <Trade time_stamp="2025/07/02" symbol="BTC" bs="N" price="105681.13" />
+    <Trade time_stamp="2025/07/02" symbol="ETH" bs="B" price="2405.01" qty="0.02328616" amount="-56.03146071" />
+    <Trade time_stamp="2025/07/03" symbol="BTC" bs="N" price="108849.59" />
+    <Trade time_stamp="2025/07/03" symbol="ETH" bs="S" price="2570.41" qty="0.04469323" amount="114.82249204" />
+    <Trade time_stamp="2025/07/04" symbol="BTC" bs="N" price="109584.77" />
+    <Trade time_stamp="2025/07/04" symbol="ETH" bs="N" price="2591.26" />
+    <Trade time_stamp="2025/07/05" symbol="BTC" bs="N" price="107984.25" />
+    <Trade time_stamp="2025/07/05" symbol="ETH" bs="B" price="2508.04" qty="0.01784814" amount="-44.78625374" />
+    <Trade time_stamp="2025/07/06" symbol="BTC" bs="N" price="108198.12" />
+    <Trade time_stamp="2025/07/06" symbol="ETH" bs="N" price="2516.42" />
+    <Trade time_stamp="2025/07/07" symbol="BTC" bs="N" price="109203.85" />
+    <Trade time_stamp="2025/07/07" symbol="ETH" bs="S" price="2570.35" qty="0.01629811" amount="41.87089563" />
+    <Trade time_stamp="2025/07/08" symbol="BTC" bs="N" price="108262.94" />
+    <Trade time_stamp="2025/07/08" symbol="ETH" bs="N" price="2542.3" />
+    <Trade time_stamp="2025/07/09" symbol="BTC" bs="N" price="108922.99" />
+    <Trade time_stamp="2025/07/09" symbol="ETH" bs="S" price="2615.25" qty="0.01585468" amount="41.44321932" />
+    <Trade time_stamp="2025/07/10" symbol="BTC" bs="B" price="111234" qty="0.00036264" amount="-40.35754599" />
+    <Trade time_stamp="2025/07/10" symbol="ETH" bs="S" price="2768.74" qty="0.03863471" amount="106.91597207" />
+    <Trade time_stamp="2025/07/11" symbol="BTC" bs="N" price="116010.01" />
+    <Trade time_stamp="2025/07/11" symbol="ETH" bs="S" price="2951.29" qty="0.03436519" amount="101.37093373" />
+    <Trade time_stamp="2025/07/12" symbol="BTC" bs="S" price="117527.66" qty="0.00043479" amount="51.07440202" />
+    <Trade time_stamp="2025/07/12" symbol="ETH" bs="N" price="2958.21" />
+    <Trade time_stamp="2025/07/13" symbol="BTC" bs="N" price="117420" />
+    <Trade time_stamp="2025/07/13" symbol="ETH" bs="N" price="2943.29" />
+    <Trade time_stamp="2025/07/14" symbol="BTC" bs="N" price="119086.65" />
+    <Trade time_stamp="2025/07/14" symbol="ETH" bs="N" price="2972.03" />
+    <Trade time_stamp="2025/07/15" symbol="BTC" bs="N" price="119841.17" />
+    <Trade time_stamp="2025/07/15" symbol="ETH" bs="N" price="3013.61" />
+    <Trade time_stamp="2025/07/16" symbol="BTC" bs="B" price="117758.08" qty="0.00057101" amount="-67.27500275" />
+    <Trade time_stamp="2025/07/16" symbol="ETH" bs="S" price="3137.9" qty="0.04192688" amount="131.49658504" />
+    <Trade time_stamp="2025/07/17" symbol="BTC" bs="B" price="118630.44" qty="0.00060863" amount="-72.23834276" />
+    <Trade time_stamp="2025/07/17" symbol="ETH" bs="S" price="3371.35" qty="0.05085617" amount="171.36821915" />
+    <Trade time_stamp="2025/07/18" symbol="BTC" bs="N" price="119177.56" />
+    <Trade time_stamp="2025/07/18" symbol="ETH" bs="S" price="3476.88" qty="0.02078552" amount="72.23263196" />
+    <Trade time_stamp="2025/07/19" symbol="BTC" bs="B" price="117924.84" qty="0.00067107" amount="-79.17511876" />
+    <Trade time_stamp="2025/07/19" symbol="ETH" bs="S" price="3546.92" qty="0.01802788" amount="63.91149243" />
+    <Trade time_stamp="2025/07/20" symbol="BTC" bs="N" price="117840.01" />
+    <Trade time_stamp="2025/07/20" symbol="ETH" bs="N" price="3592" />
+    <Trade time_stamp="2025/07/21" symbol="BTC" bs="B" price="117265.11" qty="0.00075812" amount="-88.94525739" />
+    <Trade time_stamp="2025/07/21" symbol="ETH" bs="S" price="3756.69" qty="0.04170191" amount="156.58282848" />
+    <Trade time_stamp="2025/07/22" symbol="BTC" bs="N" price="117380.36" />
+    <Trade time_stamp="2025/07/22" symbol="ETH" bs="N" price="3762.32" />
+    <Trade time_stamp="2025/07/23" symbol="BTC" bs="S" price="119954.43" qty="0.00052202" amount="62.58687116" />
+    <Trade time_stamp="2025/07/23" symbol="ETH" bs="N" price="3746.21" />
+    <Trade time_stamp="2025/07/24" symbol="BTC" bs="N" price="118756" />
+    <Trade time_stamp="2025/07/24" symbol="ETH" bs="B" price="3628.29" qty="0.02878644" amount="-104.49780757" />
+    <Trade time_stamp="2025/07/25" symbol="BTC" bs="N" price="118340.98" />
+    <Trade time_stamp="2025/07/25" symbol="ETH" bs="S" price="3706.95" qty="0.01614647" amount="59.8242396" />
+    <Trade time_stamp="2025/07/26" symbol="BTC" bs="B" price="117614.31" qty="0.0003745" amount="-44.06811367" />
+    <Trade time_stamp="2025/07/26" symbol="ETH" bs="N" price="3724.97" />
+    <Trade time_stamp="2025/07/27" symbol="BTC" bs="N" price="117919.99" />
+    <Trade time_stamp="2025/07/27" symbol="ETH" bs="N" price="3741.11" />
+    <Trade time_stamp="2025/07/28" symbol="BTC" bs="N" price="119415.56" />
+    <Trade time_stamp="2025/07/28" symbol="ETH" bs="S" price="3872.11" qty="0.02653408" amount="102.69151461" />
+    <Trade time_stamp="2025/07/29" symbol="BTC" bs="N" price="118062.32" />
+    <Trade time_stamp="2025/07/29" symbol="ETH" bs="N" price="3799" />
+    <Trade time_stamp="2025/07/30" symbol="BTC" bs="N" price="117950.75" />
+    <Trade time_stamp="2025/07/30" symbol="ETH" bs="N" price="3793.79" />
+    <Trade time_stamp="2025/07/31" symbol="BTC" bs="N" price="117840.29" />
+    <Trade time_stamp="2025/07/31" symbol="ETH" bs="N" price="3810" />
+    <Trade time_stamp="2025/08/01" symbol="BTC" bs="N" price="115764.07" />
+    <Trade time_stamp="2025/08/01" symbol="ETH" bs="B" price="3698.39" qty="0.02094681" amount="-77.50823955" />
+    <Trade time_stamp="2025/08/02" symbol="BTC" bs="N" price="113297.92" />
+    <Trade time_stamp="2025/08/02" symbol="ETH" bs="B" price="3488.21" qty="0.03383466" amount="-118.08142651" />
+    <Trade time_stamp="2025/08/03" symbol="BTC" bs="N" price="112546.35" />
+    <Trade time_stamp="2025/08/03" symbol="ETH" bs="B" price="3393.94" qty="0.01737225" amount="-58.98987126" />
+    <Trade time_stamp="2025/08/04" symbol="BTC" bs="N" price="114208.81" />
+    <Trade time_stamp="2025/08/04" symbol="ETH" bs="S" price="3496.75" qty="0.01608736" amount="56.22533447" />
+    <Trade time_stamp="2025/08/05" symbol="BTC" bs="B" price="115055.03" qty="0.00051516" amount="-59.3018422" />
+    <Trade time_stamp="2025/08/05" symbol="ETH" bs="S" price="3720.99" qty="0.0405038" amount="150.63887918" />
+    <Trade time_stamp="2025/08/06" symbol="BTC" bs="N" price="114129.75" />
+    <Trade time_stamp="2025/08/06" symbol="ETH" bs="B" price="3612.01" qty="0.01784522" amount="-64.48934186" />
+    <Trade time_stamp="2025/08/07" symbol="BTC" bs="N" price="114992.27" />
+    <Trade time_stamp="2025/08/07" symbol="ETH" bs="S" price="3683.31" qty="0.0109108" amount="40.16775852" />
+    <Trade time_stamp="2025/08/08" symbol="BTC" bs="N" price="117472.02" />
+    <Trade time_stamp="2025/08/08" symbol="ETH" bs="S" price="3910.3" qty="0.0330715" amount="129.25480946" />
+    <Trade time_stamp="2025/08/09" symbol="BTC" bs="B" price="116674.74" qty="0.00054051" amount="-63.09544545" />
+    <Trade time_stamp="2025/08/09" symbol="ETH" bs="S" price="4009.51" qty="0.01876252" amount="75.19087841" />
+    <Trade time_stamp="2025/08/10" symbol="BTC" bs="B" price="116462.25" qty="0.00074849" amount="-87.21460938" />
+    <Trade time_stamp="2025/08/10" symbol="ETH" bs="S" price="4260.63" qty="0.03925382" amount="167.16236439" />
+    <Trade time_stamp="2025/08/11" symbol="BTC" bs="S" price="119294.27" qty="0.00057385" amount="68.42272702" />
+    <Trade time_stamp="2025/08/11" symbol="ETH" bs="N" price="4250.58" />
+    <Trade time_stamp="2025/08/12" symbol="BTC" bs="N" price="118686" />
+    <Trade time_stamp="2025/08/12" symbol="ETH" bs="B" price="4223.22" qty="0.01166113" amount="-49.27213706" />
+    <Trade time_stamp="2025/08/13" symbol="BTC" bs="B" price="120134.09" qty="0.00074448" amount="-89.48202522" />
+    <Trade time_stamp="2025/08/13" symbol="ETH" bs="S" price="4590.52" qty="0.04746618" amount="217.78548503" />
+    <Trade time_stamp="2025/08/14" symbol="BTC" bs="N" price="123306.44" />
+    <Trade time_stamp="2025/08/14" symbol="ETH" bs="S" price="4749.31" qty="0.01254509" amount="59.55073708" />
+    <Trade time_stamp="2025/08/15" symbol="BTC" bs="N" price="118295.09" />
+    <Trade time_stamp="2025/08/15" symbol="ETH" bs="B" price="4546.84" qty="0.01385038" amount="-63.00695463" />
+    <Trade time_stamp="2025/08/16" symbol="BTC" bs="N" price="117342.04" />
+    <Trade time_stamp="2025/08/16" symbol="ETH" bs="B" price="4439.47" qty="0.01219701" amount="-54.17532867" />
+    <Trade time_stamp="2025/08/17" symbol="BTC" bs="N" price="117380.66" />
+    <Trade time_stamp="2025/08/17" symbol="ETH" bs="N" price="4422" />
+    <Trade time_stamp="2025/08/18" symbol="BTC" bs="N" price="117405.01" />
+    <Trade time_stamp="2025/08/18" symbol="ETH" bs="N" price="4472.34" />
+    <Trade time_stamp="2025/08/19" symbol="BTC" bs="N" price="116227.05" />
+    <Trade time_stamp="2025/08/19" symbol="ETH" bs="B" price="4312.99" qty="0.01504663" amount="-64.92840922" />
+    <Trade time_stamp="2025/08/20" symbol="BTC" bs="N" price="112872.95" />
+    <Trade time_stamp="2025/08/20" symbol="ETH" bs="B" price="4075.58" qty="0.02688662" amount="-109.63340757" />
+    <Trade time_stamp="2025/08/21" symbol="BTC" bs="B" price="114271.23" qty="0.00053742" amount="-61.44243523" />
+    <Trade time_stamp="2025/08/21" symbol="ETH" bs="S" price="4336.16" qty="0.03491389" amount="151.31651057" />
+    <Trade time_stamp="2025/08/22" symbol="BTC" bs="N" price="112500" />
+    <Trade time_stamp="2025/08/22" symbol="ETH" bs="B" price="4225.3" qty="0.01132203" amount="-47.86289975" />
+    <Trade time_stamp="2025/08/23" symbol="BTC" bs="B" price="116936" qty="0.00079763" amount="-93.31777305" />
+    <Trade time_stamp="2025/08/23" symbol="ETH" bs="S" price="4832.07" qty="0.06800056" amount="328.41919201" />
+    <Trade time_stamp="2025/08/24" symbol="BTC" bs="N" price="115438.06" />
+    <Trade time_stamp="2025/08/24" symbol="ETH" bs="N" price="4778.4" />
+    <Trade time_stamp="2025/08/25" symbol="BTC" bs="B" price="113493.59" qty="0.00059604" amount="-67.68108667" />
+    <Trade time_stamp="2025/08/25" symbol="ETH" bs="N" price="4780.15" />
+    <Trade time_stamp="2025/08/26" symbol="BTC" bs="N" price="110111.98" />
+    <Trade time_stamp="2025/08/26" symbol="ETH" bs="B" price="4376.17" qty="0.04170365" amount="-182.59355107" />
+    <Trade time_stamp="2025/08/27" symbol="BTC" bs="N" price="111763.22" />
+    <Trade time_stamp="2025/08/27" symbol="ETH" bs="S" price="4600.63" qty="0.02536042" amount="116.61555575" />
+    <Trade time_stamp="2025/08/28" symbol="BTC" bs="N" price="111262.01" />
+    <Trade time_stamp="2025/08/28" symbol="ETH" bs="B" price="4506.71" qty="0.01099085" amount="-49.5573549" />
+    <Trade time_stamp="2025/08/29" symbol="BTC" bs="S" price="112566.9" qty="0.00047098" amount="52.99079733" />
+    <Trade time_stamp="2025/08/29" symbol="ETH" bs="N" price="4511.2" />
+    <Trade time_stamp="2025/08/30" symbol="BTC" bs="B" price="108377.4" qty="0.00051455" amount="-55.79398403" />
+    <Trade time_stamp="2025/08/30" symbol="ETH" bs="B" price="4360.18" qty="0.01223551" amount="-53.37571491" />
+    <Trade time_stamp="2025/08/31" symbol="BTC" bs="N" price="108816.33" />
+    <Trade time_stamp="2025/08/31" symbol="ETH" bs="N" price="4373.7" />
+    <Trade time_stamp="2025/09/01" symbol="BTC" bs="N" price="108246.36" />
+    <Trade time_stamp="2025/09/01" symbol="ETH" bs="N" price="4391.83" />
+    <Trade time_stamp="2025/09/02" symbol="BTC" bs="N" price="109237.43" />
+    <Trade time_stamp="2025/09/02" symbol="ETH" bs="N" price="4314.5" />
+    <Trade time_stamp="2025/09/03" symbol="BTC" bs="S" price="111240.01" qty="0.00072216" amount="80.29276694" />
+    <Trade time_stamp="2025/09/03" symbol="ETH" bs="B" price="4326.49" qty="0.01283485" amount="-55.55764606" />
+    <Trade time_stamp="2025/09/04" symbol="BTC" bs="N" price="111705.72" />
+    <Trade time_stamp="2025/09/04" symbol="ETH" bs="S" price="4450.46" qty="0.01593422" amount="70.8791556" />
+    <Trade time_stamp="2025/09/05" symbol="BTC" bs="N" price="110730.87" />
+    <Trade time_stamp="2025/09/05" symbol="ETH" bs="B" price="4297.56" qty="0.01884488" amount="-81.02751217" />
+    <Trade time_stamp="2025/09/06" symbol="BTC" bs="N" price="110660" />
+    <Trade time_stamp="2025/09/06" symbol="ETH" bs="N" price="4307.46" />
+    <Trade time_stamp="2025/09/07" symbol="BTC" bs="N" price="110187.98" />
+    <Trade time_stamp="2025/09/07" symbol="ETH" bs="N" price="4273.15" />
+    <Trade time_stamp="2025/09/08" symbol="BTC" bs="N" price="111137.35" />
+    <Trade time_stamp="2025/09/08" symbol="ETH" bs="N" price="4306.19" />
+    <Trade time_stamp="2025/09/09" symbol="BTC" bs="N" price="112065.23" />
+    <Trade time_stamp="2025/09/09" symbol="ETH" bs="N" price="4306.36" />
+    <Trade time_stamp="2025/09/10" symbol="BTC" bs="N" price="111546.38" />
+    <Trade time_stamp="2025/09/10" symbol="ETH" bs="N" price="4310.08" />
+    <Trade time_stamp="2025/09/11" symbol="BTC" bs="S" price="113960" qty="0.00050392" amount="57.39817043" />
+    <Trade time_stamp="2025/09/11" symbol="ETH" bs="N" price="4349.33" />
+    <Trade time_stamp="2025/09/12" symbol="BTC" bs="N" price="115482.69" />
+    <Trade time_stamp="2025/09/12" symbol="ETH" bs="S" price="4458.83" qty="0.00965505" amount="43.02872227" />
+    <Trade time_stamp="2025/09/13" symbol="BTC" bs="B" price="116029.41" qty="0.00053842" amount="-62.50387612" />
+    <Trade time_stamp="2025/09/13" symbol="ETH" bs="S" price="4712.16" qty="0.03156578" amount="148.66863491" />
+    <Trade time_stamp="2025/09/14" symbol="BTC" bs="N" price="115918.29" />
+    <Trade time_stamp="2025/09/14" symbol="ETH" bs="N" price="4666.54" />
+    <Trade time_stamp="2025/09/15" symbol="BTC" bs="N" price="115268.01" />
+    <Trade time_stamp="2025/09/15" symbol="ETH" bs="B" price="4604.48" qty="0.01183544" amount="-54.52332368" />
+    <Trade time_stamp="2025/09/16" symbol="BTC" bs="N" price="115349.71" />
+    <Trade time_stamp="2025/09/16" symbol="ETH" bs="B" price="4523.74" qty="0.01091558" amount="-49.40394208" />
+    <Trade time_stamp="2025/09/17" symbol="BTC" bs="S" price="116788.96" qty="0.0006947" amount="81.09299217" />
+    <Trade time_stamp="2025/09/17" symbol="ETH" bs="N" price="4501.3" />
+    <Trade time_stamp="2025/09/18" symbol="BTC" bs="N" price="116447.6" />
+    <Trade time_stamp="2025/09/18" symbol="ETH" bs="N" price="4590.54" />
+    <Trade time_stamp="2025/09/19" symbol="BTC" bs="N" price="117073.53" />
+    <Trade time_stamp="2025/09/19" symbol="ETH" bs="N" price="4587.66" />
+    <Trade time_stamp="2025/09/20" symbol="BTC" bs="N" price="115632.39" />
+    <Trade time_stamp="2025/09/20" symbol="ETH" bs="N" price="4468.59" />
+    <Trade time_stamp="2025/09/21" symbol="BTC" bs="N" price="115685.63" />
+    <Trade time_stamp="2025/09/21" symbol="ETH" bs="N" price="4480.41" />
+    <Trade time_stamp="2025/09/22" symbol="BTC" bs="N" price="115232.29" />
+    <Trade time_stamp="2025/09/22" symbol="ETH" bs="B" price="4444.98" qty="0.0105107" amount="-46.74322671" />
+    <Trade time_stamp="2025/09/23" symbol="BTC" bs="N" price="112650.99" />
+    <Trade time_stamp="2025/09/23" symbol="ETH" bs="B" price="4199.09" qty="0.02868924" amount="-120.52895603" />
+    <Trade time_stamp="2025/09/24" symbol="BTC" bs="N" price="111998.8" />
+    <Trade time_stamp="2025/09/24" symbol="ETH" bs="N" price="4164.25" />
+    <Trade time_stamp="2025/09/25" symbol="BTC" bs="N" price="113307.01" />
+    <Trade time_stamp="2025/09/25" symbol="ETH" bs="N" price="4152.81" />
+    <Trade time_stamp="2025/09/26" symbol="BTC" bs="N" price="108994.49" />
+    <Trade time_stamp="2025/09/26" symbol="ETH" bs="B" price="3874.35" qty="0.04192012" amount="-162.4944555" />
+    <Trade time_stamp="2025/09/27" symbol="BTC" bs="N" price="109643.46" />
+    <Trade time_stamp="2025/09/27" symbol="ETH" bs="S" price="4032.24" qty="0.02396779" amount="96.59557417" />
+    <Trade time_stamp="2025/09/28" symbol="BTC" bs="N" price="109635.85" />
+    <Trade time_stamp="2025/09/28" symbol="ETH" bs="N" price="4018.39" />
+    <Trade time_stamp="2025/09/29" symbol="BTC" bs="N" price="112163.96" />
+    <Trade time_stamp="2025/09/29" symbol="ETH" bs="S" price="4142.16" qty="0.00994804" amount="41.18575693" />
+    <Trade time_stamp="2025/09/30" symbol="BTC" bs="N" price="114311.97" />
+    <Trade time_stamp="2025/09/30" symbol="ETH" bs="N" price="4215.07" />
+    <Trade time_stamp="2025/10/01" symbol="BTC" bs="S" price="114048.94" qty="0.00037067" amount="42.25388496" />
+    <Trade time_stamp="2025/10/01" symbol="ETH" bs="N" price="4145.15" />
+    <Trade time_stamp="2025/10/02" symbol="BTC" bs="S" price="118594.99" qty="0.0003479" amount="41.23855654" />
+    <Trade time_stamp="2025/10/02" symbol="ETH" bs="S" price="4348.03" qty="0.01292651" amount="56.17674534" />
+    <Trade time_stamp="2025/10/03" symbol="BTC" bs="N" price="120529.35" />
+    <Trade time_stamp="2025/10/03" symbol="ETH" bs="S" price="4484.35" qty="0.0141652" amount="63.48993944" />
+    <Trade time_stamp="2025/10/04" symbol="BTC" bs="N" price="122232.21" />
+    <Trade time_stamp="2025/10/04" symbol="ETH" bs="N" price="4512.88" />
+    <Trade time_stamp="2025/10/05" symbol="BTC" bs="S" price="122390.99" qty="0.00035842" amount="43.84541337" />
+    <Trade time_stamp="2025/10/05" symbol="ETH" bs="N" price="4487.16" />
+    <Trade time_stamp="2025/10/06" symbol="BTC" bs="N" price="123482.32" />
+    <Trade time_stamp="2025/10/06" symbol="ETH" bs="N" price="4514.32" />
+    <Trade time_stamp="2025/10/07" symbol="BTC" bs="N" price="124658.54" />
+    <Trade time_stamp="2025/10/07" symbol="ETH" bs="S" price="4684.02" qty="0.01632426" amount="76.4249209" />
+    <Trade time_stamp="2025/10/08" symbol="BTC" bs="N" price="121332.96" />
+    <Trade time_stamp="2025/10/08" symbol="ETH" bs="B" price="4447.7" qty="0.02381895" amount="-105.99255817" />
+    <Trade time_stamp="2025/10/09" symbol="BTC" bs="N" price="123306.01" />
+    <Trade time_stamp="2025/10/09" symbol="ETH" bs="N" price="4525.72" />
+    <Trade time_stamp="2025/10/10" symbol="BTC" bs="N" price="121662.41" />
+    <Trade time_stamp="2025/10/10" symbol="ETH" bs="B" price="4368.09" qty="0.01225779" amount="-53.56990454" />
+    <Trade time_stamp="2025/10/11" symbol="BTC" bs="N" price="112774.49" />
+    <Trade time_stamp="2025/10/11" symbol="ETH" bs="B" price="3829.72" qty="0.06249997" amount="-239.47710639" />
+    <Trade time_stamp="2025/10/12" symbol="BTC" bs="N" price="110644.4" />
+    <Trade time_stamp="2025/10/12" symbol="ETH" bs="N" price="3746.8" />
+    <Trade time_stamp="2025/10/13" symbol="BTC" bs="B" price="114958.81" qty="0.00062816" amount="-72.24837664" />
+    <Trade time_stamp="2025/10/13" symbol="ETH" bs="S" price="4152.29" qty="0.04641134" amount="192.6169944" />
+    <Trade time_stamp="2025/10/14" symbol="BTC" bs="N" price="115166" />
+    <Trade time_stamp="2025/10/14" symbol="ETH" bs="S" price="4240.86" qty="0.01289384" amount="54.65361307" />
+    <Trade time_stamp="2025/10/15" symbol="BTC" bs="N" price="113028.13" />
+    <Trade time_stamp="2025/10/15" symbol="ETH" bs="B" price="4125.01" qty="0.01181098" amount="-48.74477947" />
+    <Trade time_stamp="2025/10/16" symbol="BTC" bs="B" price="110763.28" qty="0.00040111" amount="-44.44997146" />
+    <Trade time_stamp="2025/10/16" symbol="ETH" bs="B" price="3985.61" qty="0.01588838" amount="-63.35656629" />
+    <Trade time_stamp="2025/10/17" symbol="BTC" bs="N" price="108194.27" />
+    <Trade time_stamp="2025/10/17" symbol="ETH" bs="N" price="3894.5" />
+    <Trade time_stamp="2025/10/18" symbol="BTC" bs="B" price="106431.68" qty="0.00048428" amount="-51.56879065" />
+    <Trade time_stamp="2025/10/18" symbol="ETH" bs="B" price="3831.58" qty="0.01298509" amount="-49.77830101" />
+    <Trade time_stamp="2025/10/19" symbol="BTC" bs="N" price="107185" />
+    <Trade time_stamp="2025/10/19" symbol="ETH" bs="N" price="3889.2" />
+    <Trade time_stamp="2025/10/20" symbol="BTC" bs="N" price="108642.77" />
+    <Trade time_stamp="2025/10/20" symbol="ETH" bs="S" price="3982.58" qty="0.01849925" amount="73.63790262" />
+    <Trade time_stamp="2025/10/21" symbol="BTC" bs="S" price="110532.09" qty="0.00044223" amount="48.85670304" />
+    <Trade time_stamp="2025/10/21" symbol="ETH" bs="N" price="3979.22" />
+    <Trade time_stamp="2025/10/22" symbol="BTC" bs="N" price="108297.66" />
+    <Trade time_stamp="2025/10/22" symbol="ETH" bs="B" price="3873.04" qty="0.01740001" amount="-67.42463747" />
+    <Trade time_stamp="2025/10/23" symbol="BTC" bs="N" price="107567.45" />
+    <Trade time_stamp="2025/10/23" symbol="ETH" bs="N" price="3805.53" />
+    <Trade time_stamp="2025/10/24" symbol="BTC" bs="N" price="110078.19" />
+    <Trade time_stamp="2025/10/24" symbol="ETH" bs="N" price="3856.8" />
+    <Trade time_stamp="2025/10/25" symbol="BTC" bs="N" price="111004.9" />
+    <Trade time_stamp="2025/10/25" symbol="ETH" bs="N" price="3934.88" />
+    <Trade time_stamp="2025/10/26" symbol="BTC" bs="N" price="111646.27" />
+    <Trade time_stamp="2025/10/26" symbol="ETH" bs="N" price="3953.81" />
+    <Trade time_stamp="2025/10/27" symbol="BTC" bs="N" price="114559.41" />
+    <Trade time_stamp="2025/10/27" symbol="ETH" bs="S" price="4158.46" qty="0.02768569" amount="115.07228521" />
+    <Trade time_stamp="2025/10/28" symbol="BTC" bs="N" price="114107.65" />
+    <Trade time_stamp="2025/10/28" symbol="ETH" bs="N" price="4120.16" />
+    <Trade time_stamp="2025/10/29" symbol="BTC" bs="S" price="112898.44" qty="0.00047413" amount="53.50161816" />
+    <Trade time_stamp="2025/10/29" symbol="ETH" bs="B" price="3979.19" qty="0.0240536" amount="-95.7617119" />
+    <Trade time_stamp="2025/10/30" symbol="BTC" bs="B" price="110021.3" qty="0.00037908" amount="-41.72766033" />
+    <Trade time_stamp="2025/10/30" symbol="ETH" bs="N" price="3903" />
+    <Trade time_stamp="2025/10/31" symbol="BTC" bs="N" price="108322.87" />
+    <Trade time_stamp="2025/10/31" symbol="ETH" bs="B" price="3804.95" qty="0.0161629" amount="-61.52978155" />
+    <Trade time_stamp="2025/11/01" symbol="BTC" bs="N" price="109608.01" />
+    <Trade time_stamp="2025/11/01" symbol="ETH" bs="N" price="3848" />
+    <Trade time_stamp="2025/11/02" symbol="BTC" bs="N" price="110098.1" />
+    <Trade time_stamp="2025/11/02" symbol="ETH" bs="N" price="3873.78" />
+    <Trade time_stamp="2025/11/03" symbol="BTC" bs="N" price="110540.69" />
+    <Trade time_stamp="2025/11/03" symbol="ETH" bs="S" price="3906.58" qty="0.01076143" amount="42.0193774" />
+    <Trade time_stamp="2025/11/04" symbol="BTC" bs="N" price="106583.05" />
+    <Trade time_stamp="2025/11/04" symbol="ETH" bs="B" price="3603.84" qty="0.04277559" amount="-154.23350003" />
+    <Trade time_stamp="2025/11/05" symbol="BTC" bs="N" price="101497.23" />
+    <Trade time_stamp="2025/11/05" symbol="ETH" bs="B" price="3287.05" qty="0.0484654" amount="-159.38789069" />
+    <Trade time_stamp="2025/11/06" symbol="BTC" bs="N" price="103885.16" />
+    <Trade time_stamp="2025/11/06" symbol="ETH" bs="S" price="3424.29" qty="0.02080424" amount="71.20412773" />
+    <Trade time_stamp="2025/11/07" symbol="BTC" bs="N" price="101346.04" />
+    <Trade time_stamp="2025/11/07" symbol="ETH" bs="B" price="3315.14" qty="0.01436835" amount="-47.65691971" />
+    <Trade time_stamp="2025/11/08" symbol="BTC" bs="N" price="103339.09" />
+    <Trade time_stamp="2025/11/08" symbol="ETH" bs="S" price="3436.04" qty="0.01850066" amount="63.53721749" />
+    <Trade time_stamp="2025/11/09" symbol="BTC" bs="N" price="102312.95" />
+    <Trade time_stamp="2025/11/09" symbol="ETH" bs="N" price="3401.51" />
+    <Trade time_stamp="2025/11/10" symbol="BTC" bs="N" price="104722.95" />
+    <Trade time_stamp="2025/11/10" symbol="ETH" bs="S" price="3583.46" qty="0.02456224" amount="87.97379085" />
+    <Trade time_stamp="2025/11/11" symbol="BTC" bs="N" price="106011.13" />
+    <Trade time_stamp="2025/11/11" symbol="ETH" bs="N" price="3567.85" />
+    <Trade time_stamp="2025/11/12" symbol="BTC" bs="N" price="103059" />
+    <Trade time_stamp="2025/11/12" symbol="ETH" bs="B" price="3417.76" qty="0.02775796" amount="-94.91749725" />
+    <Trade time_stamp="2025/11/13" symbol="BTC" bs="B" price="101654.37" qty="0.00035984" amount="-36.59718545" />
+    <Trade time_stamp="2025/11/13" symbol="ETH" bs="N" price="3414.91" />
+    <Trade time_stamp="2025/11/14" symbol="BTC" bs="N" price="99692.03" />
+    <Trade time_stamp="2025/11/14" symbol="ETH" bs="B" price="3231.55" qty="0.02855749" amount="-92.3311193" />
+    <Trade time_stamp="2025/11/15" symbol="BTC" bs="B" price="94594" qty="0.00062498" amount="-59.14851704" />
+    <Trade time_stamp="2025/11/15" symbol="ETH" bs="N" price="3112.4" />
+    <Trade time_stamp="2025/11/16" symbol="BTC" bs="N" price="95596.23" />
+    <Trade time_stamp="2025/11/16" symbol="ETH" bs="N" price="3167.87" />
+    <Trade time_stamp="2025/11/17" symbol="BTC" bs="N" price="94261.45" />
+    <Trade time_stamp="2025/11/17" symbol="ETH" bs="B" price="3095.29" qty="0.01122359" amount="-34.75763437" />
+    <Trade time_stamp="2025/11/18" symbol="BTC" bs="N" price="92215.14" />
+    <Trade time_stamp="2025/11/18" symbol="ETH" bs="N" price="3031.44" />
+    <Trade time_stamp="2025/11/19" symbol="BTC" bs="B" price="92960.83" qty="0.00046946" amount="-43.66295844" />
+    <Trade time_stamp="2025/11/19" symbol="ETH" bs="S" price="3123.65" qty="0.01170609" amount="36.54745279" />
+    <Trade time_stamp="2025/11/20" symbol="BTC" bs="N" price="91554.96" />
+    <Trade time_stamp="2025/11/20" symbol="ETH" bs="B" price="3025.48" qty="0.01792787" amount="-54.26754588" />
+    <Trade time_stamp="2025/11/21" symbol="BTC" bs="B" price="86637.22" qty="0.00055601" amount="-48.19558721" />
+    <Trade time_stamp="2025/11/21" symbol="ETH" bs="B" price="2834.21" qty="0.02871042" amount="-81.4120675" />
+    <Trade time_stamp="2025/11/22" symbol="BTC" bs="N" price="85129.42" />
+    <Trade time_stamp="2025/11/22" symbol="ETH" bs="B" price="2765.86" qty="0.01199263" amount="-33.18654137" />
+    <Trade time_stamp="2025/11/23" symbol="BTC" bs="N" price="84739.75" />
+    <Trade time_stamp="2025/11/23" symbol="ETH" bs="N" price="2770.12" />
+    <Trade time_stamp="2025/11/24" symbol="BTC" bs="N" price="86830" />
+    <Trade time_stamp="2025/11/24" symbol="ETH" bs="N" price="2802.16" />
+    <Trade time_stamp="2025/11/25" symbol="BTC" bs="N" price="88300.01" />
+    <Trade time_stamp="2025/11/25" symbol="ETH" bs="S" price="2953.38" qty="0.03537678" amount="104.42884836" />
+    <Trade time_stamp="2025/11/26" symbol="BTC" bs="N" price="87369.97" />
+    <Trade time_stamp="2025/11/26" symbol="ETH" bs="N" price="2959.36" />
+    <Trade time_stamp="2025/11/27" symbol="BTC" bs="N" price="90484.01" />
+    <Trade time_stamp="2025/11/27" symbol="ETH" bs="N" price="3026.56" />
+    <Trade time_stamp="2025/11/28" symbol="BTC" bs="S" price="91333.94" qty="0.00052212" amount="47.66302409" />
+    <Trade time_stamp="2025/11/28" symbol="ETH" bs="N" price="3015.23" />
+    <Trade time_stamp="2025/11/29" symbol="BTC" bs="N" price="90890.71" />
+    <Trade time_stamp="2025/11/29" symbol="ETH" bs="N" price="3031.14" />
+    <Trade time_stamp="2025/11/30" symbol="BTC" bs="N" price="90802.44" />
+    <Trade time_stamp="2025/11/30" symbol="ETH" bs="N" price="2989.17" />
+    <Trade time_stamp="2025/12/01" symbol="BTC" bs="N" price="90360.01" />
+    <Trade time_stamp="2025/12/01" symbol="ETH" bs="N" price="2991.25" />
+    <Trade time_stamp="2025/12/02" symbol="BTC" bs="B" price="86286.01" qty="0.00050084" amount="-43.23739692" />
+    <Trade time_stamp="2025/12/02" symbol="ETH" bs="B" price="2799.07" qty="0.03234816" amount="-90.59007096" />
+    <Trade time_stamp="2025/12/03" symbol="BTC" bs="S" price="91277.88" qty="0.00053178" amount="48.51533938" />
+    <Trade time_stamp="2025/12/03" symbol="ETH" bs="S" price="2996.07" qty="0.02962643" amount="88.71847117" />
+    <Trade time_stamp="2025/12/04" symbol="BTC" bs="N" price="93429.95" />
+    <Trade time_stamp="2025/12/04" symbol="ETH" bs="S" price="3188.39" qty="0.0367131" amount="116.99715167" />
+    <Trade time_stamp="2025/12/05" symbol="BTC" bs="N" price="92078.06" />
+    <Trade time_stamp="2025/12/05" symbol="ETH" bs="N" price="3133.26" />
+    <Trade time_stamp="2025/12/06" symbol="BTC" bs="B" price="89330.04" qty="0.00066277" amount="-59.23451316" />
+    <Trade time_stamp="2025/12/06" symbol="ETH" bs="B" price="3021.77" qty="0.02313649" amount="-69.94812543" />
+    <Trade time_stamp="2025/12/07" symbol="BTC" bs="N" price="89236.8" />
+    <Trade time_stamp="2025/12/07" symbol="ETH" bs="N" price="3038.06" />
+    <Trade time_stamp="2025/12/08" symbol="BTC" bs="N" price="90395.32" />
+    <Trade time_stamp="2025/12/08" symbol="ETH" bs="N" price="3059.86" />
+    <Trade time_stamp="2025/12/09" symbol="BTC" bs="N" price="90634.35" />
+    <Trade time_stamp="2025/12/09" symbol="ETH" bs="S" price="3124.16" qty="0.0189297" amount="59.1098374" />
+    <Trade time_stamp="2025/12/10" symbol="BTC" bs="N" price="92678.81" />
+    <Trade time_stamp="2025/12/10" symbol="ETH" bs="S" price="3318.04" qty="0.03461947" amount="114.81135492" />
+    <Trade time_stamp="2025/12/11" symbol="BTC" bs="B" price="92015.38" qty="0.00046801" amount="-43.08559526" />
+    <Trade time_stamp="2025/12/11" symbol="ETH" bs="N" price="3324.14" />
+    <Trade time_stamp="2025/12/12" symbol="BTC" bs="S" price="92513.38" qty="0.00046416" amount="42.91990578" />
+    <Trade time_stamp="2025/12/12" symbol="ETH" bs="B" price="3237.38" qty="0.01682856" amount="-54.50768172" />
+    <Trade time_stamp="2025/12/13" symbol="BTC" bs="N" price="90268.43" />
+    <Trade time_stamp="2025/12/13" symbol="ETH" bs="B" price="3084.86" qty="0.0261231" amount="-80.62640643" />
+    <Trade time_stamp="2025/12/14" symbol="BTC" bs="N" price="90240" />
+    <Trade time_stamp="2025/12/14" symbol="ETH" bs="N" price="3114.64" />
+    <Trade time_stamp="2025/12/15" symbol="BTC" bs="B" price="88172.16" qty="0.00052187" amount="-46.03712373" />
+    <Trade time_stamp="2025/12/15" symbol="ETH" bs="N" price="3063.49" />
+    <Trade time_stamp="2025/12/16" symbol="BTC" bs="N" price="86432.08" />
+    <Trade time_stamp="2025/12/16" symbol="ETH" bs="B" price="2964.85" qty="0.01330114" amount="-39.45560323" />
+    <Trade time_stamp="2025/12/17" symbol="BTC" bs="N" price="87863.43" />
+    <Trade time_stamp="2025/12/17" symbol="ETH" bs="N" price="2962.3" />
+    <Trade time_stamp="2025/12/18" symbol="BTC" bs="S" price="86243.23" qty="0.00041413" amount="35.69830881" />
+    <Trade time_stamp="2025/12/18" symbol="ETH" bs="B" price="2833.5" qty="0.03336532" amount="-94.58793573" />
+    <Trade time_stamp="2025/12/19" symbol="BTC" bs="N" price="85516.41" />
+    <Trade time_stamp="2025/12/19" symbol="ETH" bs="N" price="2828.56" />
+    <Trade time_stamp="2025/12/20" symbol="BTC" bs="N" price="88136.95" />
+    <Trade time_stamp="2025/12/20" symbol="ETH" bs="S" price="2979.49" qty="0.0293112" amount="87.28875495" />
+    <Trade time_stamp="2025/12/21" symbol="BTC" bs="N" price="88360.91" />
+    <Trade time_stamp="2025/12/21" symbol="ETH" bs="N" price="2977.93" />
+    <Trade time_stamp="2025/12/22" symbol="BTC" bs="N" price="88658.87" />
+    <Trade time_stamp="2025/12/22" symbol="ETH" bs="N" price="3002.03" />
+    <Trade time_stamp="2025/12/23" symbol="BTC" bs="N" price="88620.79" />
+    <Trade time_stamp="2025/12/23" symbol="ETH" bs="N" price="3009.48" />
+    <Trade time_stamp="2025/12/24" symbol="BTC" bs="N" price="87486" />
+    <Trade time_stamp="2025/12/24" symbol="ETH" bs="N" price="2965.03" />
+    <Trade time_stamp="2025/12/25" symbol="BTC" bs="N" price="87669.44" />
+    <Trade time_stamp="2025/12/25" symbol="ETH" bs="N" price="2947.48" />
+    <Trade time_stamp="2025/12/26" symbol="BTC" bs="N" price="87225.27" />
+    <Trade time_stamp="2025/12/26" symbol="ETH" bs="B" price="2903.9" qty="0.01535102" amount="-44.60012067" />
+    <Trade time_stamp="2025/12/27" symbol="BTC" bs="N" price="87369.56" />
+    <Trade time_stamp="2025/12/27" symbol="ETH" bs="N" price="2928" />
+    <Trade time_stamp="2025/12/28" symbol="BTC" bs="N" price="87877" />
+    <Trade time_stamp="2025/12/28" symbol="ETH" bs="N" price="2949.05" />
+    <Trade time_stamp="2025/12/29" symbol="BTC" bs="N" price="87952.71" />
+    <Trade time_stamp="2025/12/29" symbol="ETH" bs="N" price="2950.91" />
+    <Trade time_stamp="2025/12/30" symbol="BTC" bs="N" price="87237.13" />
+    <Trade time_stamp="2025/12/30" symbol="ETH" bs="N" price="2937.91" />
+    <Trade time_stamp="2025/12/31" symbol="BTC" bs="N" price="88485.5" />
+    <Trade time_stamp="2025/12/31" symbol="ETH" bs="S" price="2973.69" qty="0.01232908" amount="36.64452037" />
+    <Trade time_stamp="2026/01/01" symbol="BTC" bs="N" price="87648.21" />
+    <Trade time_stamp="2026/01/01" symbol="ETH" bs="N" price="2971.65" />
+    <Trade time_stamp="2026/01/02" symbol="BTC" bs="N" price="88839.05" />
+    <Trade time_stamp="2026/01/02" symbol="ETH" bs="N" price="3004.19" />
+    <Trade time_stamp="2026/01/03" symbol="BTC" bs="N" price="89995.14" />
+    <Trade time_stamp="2026/01/03" symbol="ETH" bs="S" price="3125.46" qty="0.03004272" amount="93.85036896" />
+    <Trade time_stamp="2026/01/04" symbol="BTC" bs="N" price="90628.01" />
+    <Trade time_stamp="2026/01/04" symbol="ETH" bs="N" price="3127.11" />
+    <Trade time_stamp="2026/01/05" symbol="BTC" bs="N" price="91529.74" />
+    <Trade time_stamp="2026/01/05" symbol="ETH" bs="N" price="3144.71" />
+    <Trade time_stamp="2026/01/06" symbol="BTC" bs="S" price="93859.71" qty="0.00047188" amount="44.26863945" />
+    <Trade time_stamp="2026/01/06" symbol="ETH" bs="N" price="3224.99" />
+    <Trade time_stamp="2026/01/07" symbol="BTC" bs="N" price="93747.97" />
+    <Trade time_stamp="2026/01/07" symbol="ETH" bs="S" price="3296.83" qty="0.02335679" amount="76.96485706" />
+    <Trade time_stamp="2026/01/08" symbol="BTC" bs="B" price="91364.16" qty="0.00046169" amount="-42.20277013" />
+    <Trade time_stamp="2026/01/08" symbol="ETH" bs="B" price="3168.72" qty="0.01930275" amount="-61.19561772" />
+    <Trade time_stamp="2026/01/09" symbol="BTC" bs="N" price="91100" />
+    <Trade time_stamp="2026/01/09" symbol="ETH" bs="B" price="3106.66" qty="0.01332209" amount="-41.40791134" />
+    <Trade time_stamp="2026/01/10" symbol="BTC" bs="N" price="90641.27" />
+    <Trade time_stamp="2026/01/10" symbol="ETH" bs="N" price="3088.4" />
+    <Trade time_stamp="2026/01/11" symbol="BTC" bs="N" price="90504.7" />
+    <Trade time_stamp="2026/01/11" symbol="ETH" bs="N" price="3086.72" />
+    <Trade time_stamp="2026/01/12" symbol="BTC" bs="N" price="91013.66" />
+    <Trade time_stamp="2026/01/12" symbol="ETH" bs="N" price="3123.46" />
+    <Trade time_stamp="2026/01/13" symbol="BTC" bs="N" price="91296.2" />
+    <Trade time_stamp="2026/01/13" symbol="ETH" bs="N" price="3095.75" />
+    <Trade time_stamp="2026/01/14" symbol="BTC" bs="S" price="95413.99" qty="0.00045706" amount="43.58830378" />
+    <Trade time_stamp="2026/01/14" symbol="ETH" bs="S" price="3325.83" qty="0.0318405" amount="105.8431575" />
+    <Trade time_stamp="2026/01/15" symbol="BTC" bs="N" price="96951.78" />
+    <Trade time_stamp="2026/01/15" symbol="ETH" bs="N" price="3354.92" />
+    <Trade time_stamp="2026/01/16" symbol="BTC" bs="N" price="95604.81" />
+    <Trade time_stamp="2026/01/16" symbol="ETH" bs="N" price="3318.7" />
+    <Trade time_stamp="2026/01/17" symbol="BTC" bs="N" price="95550.94" />
+    <Trade time_stamp="2026/01/17" symbol="ETH" bs="N" price="3296.28" />
+    <Trade time_stamp="2026/01/18" symbol="BTC" bs="N" price="95147.77" />
+    <Trade time_stamp="2026/01/18" symbol="ETH" bs="N" price="3310.56" />
+    <Trade time_stamp="2026/01/19" symbol="BTC" bs="N" price="93673.14" />
+    <Trade time_stamp="2026/01/19" symbol="ETH" bs="N" price="3284.04" />
+    <Trade time_stamp="2026/01/20" symbol="BTC" bs="N" price="92630.99" />
+    <Trade time_stamp="2026/01/20" symbol="ETH" bs="B" price="3189.56" qty="0.01945946" amount="-62.09817743" />
+    <Trade time_stamp="2026/01/21" symbol="BTC" bs="B" price="88427.66" qty="0.00038569" amount="-34.12295647" />
+    <Trade time_stamp="2026/01/21" symbol="ETH" bs="B" price="2939.88" qty="0.04356344" amount="-128.13536501" />
+    <Trade time_stamp="2026/01/22" symbol="BTC" bs="N" price="89454.73" />
+    <Trade time_stamp="2026/01/22" symbol="ETH" bs="N" price="2982.28" />
+    <Trade time_stamp="2026/01/23" symbol="BTC" bs="N" price="89559.68" />
+    <Trade time_stamp="2026/01/23" symbol="ETH" bs="N" price="2952.7" />
+    <Trade time_stamp="2026/01/24" symbol="BTC" bs="N" price="89600.26" />
+    <Trade time_stamp="2026/01/24" symbol="ETH" bs="N" price="2956.41" />
+    <Trade time_stamp="2026/01/25" symbol="BTC" bs="N" price="89225.34" />
+    <Trade time_stamp="2026/01/25" symbol="ETH" bs="N" price="2953.23" />
+    <Trade time_stamp="2026/01/26" symbol="BTC" bs="N" price="86670.36" />
+    <Trade time_stamp="2026/01/26" symbol="ETH" bs="B" price="2816.9" qty="0.0249609" amount="-70.34753099" />
+    <Trade time_stamp="2026/01/27" symbol="BTC" bs="N" price="88347.08" />
+    <Trade time_stamp="2026/01/27" symbol="ETH" bs="S" price="2930.35" qty="0.02253431" amount="66.00038993" />
+    <Trade time_stamp="2026/01/28" symbol="BTC" bs="N" price="89249.99" />
+    <Trade time_stamp="2026/01/28" symbol="ETH" bs="S" price="3026.77" qty="0.02022341" amount="61.18101017" />
+    <Trade time_stamp="2026/01/29" symbol="BTC" bs="N" price="89300" />
+    <Trade time_stamp="2026/01/29" symbol="ETH" bs="N" price="3010.78" />
+    <Trade time_stamp="2026/01/30" symbol="BTC" bs="B" price="84650.16" qty="0.0006186" amount="-52.39108835" />
+    <Trade time_stamp="2026/01/30" symbol="ETH" bs="B" price="2822.6" qty="0.03304719" amount="-93.32564883" />
+    <Trade time_stamp="2026/01/31" symbol="BTC" bs="S" price="84260.5" qty="0.00040245" amount="33.89396833" />
+    <Trade time_stamp="2026/01/31" symbol="ETH" bs="B" price="2707.37" qty="0.03051626" amount="-82.66014358" />
+    <Trade time_stamp="2026/02/01" symbol="BTC" bs="B" price="78741.1" qty="0.00049146" amount="-38.71768995" />
+    <Trade time_stamp="2026/02/01" symbol="ETH" bs="B" price="2451.96" qty="0.0530472" amount="-130.13467635" />
+    <Trade time_stamp="2026/02/02" symbol="BTC" bs="S" price="76968.22" qty="0.00037838" amount="29.10904017" />
+    <Trade time_stamp="2026/02/02" symbol="ETH" bs="B" price="2270.16" qty="0.05539422" amount="-125.81664811" />
+    <Trade time_stamp="2026/02/03" symbol="BTC" bs="N" price="78738.6" />
+    <Trade time_stamp="2026/02/03" symbol="ETH" bs="S" price="2347.01" qty="0.0184178" amount="43.20514076" />
+    <Trade time_stamp="2026/02/04" symbol="BTC" bs="N" price="75770.21" />
+    <Trade time_stamp="2026/02/04" symbol="ETH" bs="B" price="2233.72" qty="0.02589516" amount="-57.87147024" />
+    <Trade time_stamp="2026/02/05" symbol="BTC" bs="B" price="73165.84" qty="0.00060235" amount="-44.09313817" />
+    <Trade time_stamp="2026/02/05" symbol="ETH" bs="B" price="2148.25" qty="0.0188766" amount="-40.57194834" />
+    <Trade time_stamp="2026/02/06" symbol="BTC" bs="B" price="62909.87" qty="0.00194153" amount="-122.20225421" />
+    <Trade time_stamp="2026/02/06" symbol="ETH" bs="B" price="1826.83" qty="0.08134966" amount="-148.68634838" />
+    <Trade time_stamp="2026/02/07" symbol="BTC" bs="S" price="70580.26" qty="0.0013681" amount="96.51280902" />
+    <Trade time_stamp="2026/02/07" symbol="ETH" bs="S" price="2063.37" qty="0.05606519" amount="115.62538863" />
+    <Trade time_stamp="2026/02/08" symbol="BTC" bs="B" price="69289.37" qty="0.00063408" amount="-43.95726328" />
+    <Trade time_stamp="2026/02/08" symbol="ETH" bs="S" price="2087.08" qty="0.01811428" amount="37.78705822" />
+    <Trade time_stamp="2026/02/09" symbol="BTC" bs="N" price="70330.38" />
+    <Trade time_stamp="2026/02/09" symbol="ETH" bs="N" price="2089.73" />
+    <Trade time_stamp="2026/02/10" symbol="BTC" bs="N" price="70138" />
+    <Trade time_stamp="2026/02/10" symbol="ETH" bs="N" price="2105.02" />
+    <Trade time_stamp="2026/02/11" symbol="BTC" bs="N" price="68841.28" />
+    <Trade time_stamp="2026/02/11" symbol="ETH" bs="B" price="2022.67" qty="0.02492472" amount="-50.43969469" />
+    <Trade time_stamp="2026/02/12" symbol="BTC" bs="N" price="67082.52" />
+    <Trade time_stamp="2026/02/12" symbol="ETH" bs="B" price="1941.19" qty="0.0254811" amount="-49.48840833" />
+    <Trade time_stamp="2026/02/13" symbol="BTC" bs="N" price="66272.17" />
+    <Trade time_stamp="2026/02/13" symbol="ETH" bs="N" price="1947.85" />
+    <Trade time_stamp="2026/02/14" symbol="BTC" bs="N" price="68853.97" />
+    <Trade time_stamp="2026/02/14" symbol="ETH" bs="S" price="2048.72" qty="0.03628651" amount="74.30372698" />
+    <Trade time_stamp="2026/02/15" symbol="BTC" bs="N" price="69822.94" />
+    <Trade time_stamp="2026/02/15" symbol="ETH" bs="N" price="2086.59" />
+    <Trade time_stamp="2026/02/16" symbol="BTC" bs="S" price="68832.59" qty="0.00058043" amount="39.93262021" />
+    <Trade time_stamp="2026/02/16" symbol="ETH" bs="B" price="1966.59" qty="0.03676708" amount="-72.34194124" />
+    <Trade time_stamp="2026/02/17" symbol="BTC" bs="N" price="68892.43" />
+    <Trade time_stamp="2026/02/17" symbol="ETH" bs="S" price="1998.34" qty="0.01404346" amount="28.04958454" />
+    <Trade time_stamp="2026/02/18" symbol="BTC" bs="B" price="67503.52" qty="0.00067992" amount="-45.9197383" />
+    <Trade time_stamp="2026/02/18" symbol="ETH" bs="N" price="1991.67" />
+    <Trade time_stamp="2026/02/19" symbol="BTC" bs="N" price="66461" />
+    <Trade time_stamp="2026/02/19" symbol="ETH" bs="N" price="1955.9" />
+    <Trade time_stamp="2026/02/20" symbol="BTC" bs="N" price="67003.73" />
+    <Trade time_stamp="2026/02/20" symbol="ETH" bs="N" price="1949.08" />
+    <Trade time_stamp="2026/02/21" symbol="BTC" bs="N" price="68020" />
+    <Trade time_stamp="2026/02/21" symbol="ETH" bs="N" price="1968.88" />
+    <Trade time_stamp="2026/02/22" symbol="BTC" bs="N" price="67975.93" />
+    <Trade time_stamp="2026/02/22" symbol="ETH" bs="N" price="1973.35" />
+    <Trade time_stamp="2026/02/23" symbol="BTC" bs="N" price="67643.39" />
+    <Trade time_stamp="2026/02/23" symbol="ETH" bs="N" price="1957.82" />
+    <Trade time_stamp="2026/02/24" symbol="BTC" bs="N" price="64656.01" />
+    <Trade time_stamp="2026/02/24" symbol="ETH" bs="B" price="1856.3" qty="0.03882548" amount="-72.10779339" />
+    <Trade time_stamp="2026/02/25" symbol="BTC" bs="B" price="64058.15" qty="0.00043903" amount="-28.13745079" />
+    <Trade time_stamp="2026/02/25" symbol="ETH" bs="N" price="1851.95" />
+    <Trade time_stamp="2026/02/26" symbol="BTC" bs="N" price="67988.04" />
+    <Trade time_stamp="2026/02/26" symbol="ETH" bs="S" price="2057.48" qty="0.06880531" amount="141.49477408" />
+    <Trade time_stamp="2026/02/27" symbol="BTC" bs="N" price="67485.19" />
+    <Trade time_stamp="2026/02/27" symbol="ETH" bs="N" price="2027.68" />
+    <Trade time_stamp="2026/02/28" symbol="BTC" bs="N" price="65872.09" />
+    <Trade time_stamp="2026/02/28" symbol="ETH" bs="B" price="1929.84" qty="0.04349525" amount="-83.98087141" />
+    <Trade time_stamp="2026/03/01" symbol="BTC" bs="N" price="66973.26" />
+    <Trade time_stamp="2026/03/01" symbol="ETH" bs="N" price="1964.51" />
+    <Trade time_stamp="2026/03/02" symbol="BTC" bs="N" price="65776.48" />
+    <Trade time_stamp="2026/03/02" symbol="ETH" bs="N" price="1939.71" />
+    <Trade time_stamp="2026/03/03" symbol="BTC" bs="S" price="68830.06" qty="0.00064284" amount="44.22467287" />
+    <Trade time_stamp="2026/03/03" symbol="ETH" bs="S" price="2027.34" qty="0.0241925" amount="49.02190887" />
+    <Trade time_stamp="2026/03/04" symbol="BTC" bs="N" price="68338.01" />
+    <Trade time_stamp="2026/03/04" symbol="ETH" bs="B" price="1982.81" qty="0.01676455" amount="-33.25754865" />
+    <Trade time_stamp="2026/03/05" symbol="BTC" bs="S" price="72666.77" qty="0.00076336" amount="55.44291697" />
+    <Trade time_stamp="2026/03/05" symbol="ETH" bs="S" price="2127.28" qty="0.03461729" amount="73.60383984" />
+    <Trade time_stamp="2026/03/06" symbol="BTC" bs="N" price="70891.02" />
+    <Trade time_stamp="2026/03/06" symbol="ETH" bs="N" price="2072.86" />
+    <Trade time_stamp="2026/03/07" symbol="BTC" bs="B" price="68114.02" qty="0.00076175" amount="-51.91166604" />
+    <Trade time_stamp="2026/03/07" symbol="ETH" bs="B" price="1978.68" qty="0.0364441" amount="-72.14727597" />
+    <Trade time_stamp="2026/03/08" symbol="BTC" bs="N" price="67262.91" />
+    <Trade time_stamp="2026/03/08" symbol="ETH" bs="N" price="1969.6" />
+    <Trade time_stamp="2026/03/09" symbol="BTC" bs="B" price="65971.2" qty="0.00056848" amount="-37.5223275" />
+    <Trade time_stamp="2026/03/09" symbol="ETH" bs="N" price="1937.11" />
+    <Trade time_stamp="2026/03/10" symbol="BTC" bs="S" price="68432.16" qty="0.00058941" amount="40.31434238" />
+    <Trade time_stamp="2026/03/10" symbol="ETH" bs="N" price="1992.97" />
+    <Trade time_stamp="2026/03/11" symbol="BTC" bs="N" price="69948.64" />
+    <Trade time_stamp="2026/03/11" symbol="ETH" bs="S" price="2036.5" qty="0.01362513" amount="27.73370416" />
+    <Trade time_stamp="2026/03/12" symbol="BTC" bs="N" price="70191.86" />
+    <Trade time_stamp="2026/03/12" symbol="ETH" bs="N" price="2051.97" />
+    <Trade time_stamp="2026/03/13" symbol="BTC" bs="N" price="70541.34" />
+    <Trade time_stamp="2026/03/13" symbol="ETH" bs="N" price="2073.51" />
+    <Trade time_stamp="2026/03/14" symbol="BTC" bs="N" price="70930.01" />
+    <Trade time_stamp="2026/03/14" symbol="ETH" bs="S" price="2092.21" qty="0.01769221" amount="36.99731259" />
+    <Trade time_stamp="2026/03/15" symbol="BTC" bs="N" price="71211.95" />
+    <Trade time_stamp="2026/03/15" symbol="ETH" bs="N" price="2096.16" />
+    <Trade time_stamp="2026/03/16" symbol="BTC" bs="S" price="72815.25" qty="0.000446" amount="32.45960776" />
+    <Trade time_stamp="2026/03/16" symbol="ETH" bs="S" price="2178.29" qty="0.02356577" amount="51.30740788" />
+    <Trade time_stamp="2026/03/17" symbol="BTC" bs="N" price="74884.67" />
+    <Trade time_stamp="2026/03/17" symbol="ETH" bs="S" price="2352.97" qty="0.0530406" amount="124.74055066" />
+    <Trade time_stamp="2026/03/18" symbol="BTC" bs="B" price="73909.37" qty="0.00044029" amount="-32.55792686" />
+    <Trade time_stamp="2026/03/18" symbol="ETH" bs="N" price="2317.38" />
+    <Trade time_stamp="2026/03/19" symbol="BTC" bs="N" price="71246.55" />
+    <Trade time_stamp="2026/03/19" symbol="ETH" bs="B" price="2203.39" qty="0.03489124" amount="-76.91747" />
+    <Trade time_stamp="2026/03/20" symbol="BTC" bs="B" price="69930.01" qty="0.00041429" amount="-28.98609515" />
+    <Trade time_stamp="2026/03/20" symbol="ETH" bs="B" price="2137.82" qty="0.01817386" amount="-38.87187388" />
+    <Trade time_stamp="2026/03/21" symbol="BTC" bs="N" price="70510.73" />
+    <Trade time_stamp="2026/03/21" symbol="ETH" bs="N" price="2146.21" />
+    <Trade time_stamp="2026/03/22" symbol="BTC" bs="N" price="68918.12" />
+    <Trade time_stamp="2026/03/22" symbol="ETH" bs="B" price="2084.86" qty="0.01561026" amount="-32.56149634" />
+    <Trade time_stamp="2026/03/23" symbol="BTC" bs="N" price="67859" />
+    <Trade time_stamp="2026/03/23" symbol="ETH" bs="N" price="2053.9" />
+    <Trade time_stamp="2026/03/24" symbol="BTC" bs="N" price="70906.45" />
+    <Trade time_stamp="2026/03/24" symbol="ETH" bs="S" price="2152.03" qty="0.01515799" amount="32.60414548" />
+    <Trade time_stamp="2026/03/25" symbol="BTC" bs="N" price="70556.74" />
+    <Trade time_stamp="2026/03/25" symbol="ETH" bs="N" price="2156.22" />
+    <Trade time_stamp="2026/03/26" symbol="BTC" bs="N" price="71336.53" />
+    <Trade time_stamp="2026/03/26" symbol="ETH" bs="N" price="2169.02" />
+    <Trade time_stamp="2026/03/27" symbol="BTC" bs="N" price="68820.31" />
+    <Trade time_stamp="2026/03/27" symbol="ETH" bs="B" price="2060.43" qty="0.02516073" amount="-51.86786599" />
+    <Trade time_stamp="2026/03/28" symbol="BTC" bs="B" price="66407.28" qty="0.00045563" amount="-30.27218205" />
+    <Trade time_stamp="2026/03/28" symbol="ETH" bs="B" price="1992.76" qty="0.01399504" amount="-27.90269895" />
+    <Trade time_stamp="2026/03/29" symbol="BTC" bs="N" price="66377.04" />
+    <Trade time_stamp="2026/03/29" symbol="ETH" bs="N" price="1994.74" />
+    <Trade time_stamp="2026/03/30" symbol="BTC" bs="N" price="66010.93" />
+    <Trade time_stamp="2026/03/30" symbol="ETH" bs="N" price="1984.65" />
+    <Trade time_stamp="2026/03/31" symbol="BTC" bs="S" price="66797.38" qty="0.04027071" amount="2688.63301727" />
+    <Trade time_stamp="2026/03/31" symbol="ETH" bs="S" price="2026.48" qty="1.34199281" amount="2718.1618232" />
+  </Trades>
+</CryptoReport>
