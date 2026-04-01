@@ -79,7 +79,7 @@ event sourcing 策略績效檢驗工具.
 ## 事件類型 (events.jsonl)
 
 - 事件基本結構
-  - timestamp (event_time, ISO 8601 format "{YYYY-MM-dd}T{HH:mm:ss}Z")
+  - timestamp (event_time, ISO 8601 format "{YYYY-MM-dd}T{HH:mm:ss}" without timezone if not specified)
   - type
   - data (payload)
 - 事件種類 (type)
